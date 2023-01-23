@@ -1,5 +1,10 @@
-# Arrowheads - Goals
-This 
-Definition of an XML schema for Arrowheads with a chronology between Chalcolithic and Early/Middle Bronze Age (2800/2900 to 1500 BC).
-Definition of a dataset with the data of the mentioned finds from the archaeological site of Castaneiro do Vento, Horta do Douro, Vila Nova de Foz Côa, Guarda, Portugal.
-Development of an online form aiming to facilitate the creation of XML datasets of Arrowheads of chronology between Chalcolithic and Early/Middle Bronze Age.
+# Arrowheads
+
+This repository serves a set of practices for defining models and datasets of Arrowheads from the chronology between Chalcolithic and Early/Middle Bronze Age (2800/2900 to 1500 BC).
+
+# Goals
+1. Definition of an XML schema for the arrowheads.
+2. Definition of a dataset with the data of the finds from the archaeological site of Castaneiro do Vento, Horta do Douro, Vila Nova de Foz Côa, Guarda, Portugal.
+3. Development of an online repository aiming:
+  1. to facilitate the creation of XML datasets of arrowheads
+  2. Searches and visualisations of the arrowheads
