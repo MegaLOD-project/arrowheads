@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="MegaLOD-project/arrow-heads/MegaLOD/arrow_head"
+xmlns:ah="MegaLOD-project/arrow-heads/MegaLOD/arrow_head">
+
+<element name="arrowheads" type="ah:typeArrowHeads"/>
+
+<complexType name="typeArrowHeads">
+    <sequence>
+        <element name="arrowhead" type="ah:typeArrowHead" minOccurs="1" maxOccurs="unbounded"/>
+    </sequence>
+</complexType>
+
+<complexType name="typeArrowHead">
+    <sequence>
+        <element name="order_number"/>
+        <element name="group"/>
+        <element name="type"/>
+        <element name="sub_type"/>
+        <element name="variant"/>
+        <element name="raw_material" type="ah:typeRaw_Material"/>
+        <element name="observations"/>
+    </sequence>
+    <attribute name="inventory_number"/>
+</complexType>
+
+<complexType name="typeRaw_Material">
+    <sequence>
+        <element name="typometry" type="ah:typeTypometry"/>
+        <element name="morphology" type="ah:typeMorphology"/>
+        <element name="retouch" type="ah:typeRetouch"/>
+    </sequence>
+</complexType>
+
+<complexType name="typeTypometry">
+    <sequence>
+        <element name="lenght"/>
+        <element name="width"/>
+        <element name="thickness"/>
+        <element name="body_lenght"/>
+        <element name="base_lenght"/>
+    </sequence>
+</complexType>
+
+<complexType name="typeMorphology">
+    <sequence>
+        <element name="point"/>
+        <element name="body"/>
+        <element name="base"/>
+    </sequence>
+</complexType>
+
+<complexType name="typeRetouch">
+    <sequence>
+        <element name="mode"/>
+        <element name="amplitude"/>
+        <element name="direction"/>
+        <element name="delineation"/>
+        <element name="orientation"/>
+        <element name="location"/>
+        <element name="shape"/>
+    </sequence>
+</complexType>
+
+
+</schema>
