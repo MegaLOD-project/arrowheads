@@ -6,5 +6,5 @@ This repository serves a set of practices for defining models and datasets of Ar
 1. Definition of an XML schema for the arrowheads.
 2. Definition of a dataset with the data of the finds from the archaeological site of Castaneiro do Vento, Horta do Douro, Vila Nova de Foz Côa, Guarda, Portugal.
 3. Development of an online repository aiming:
-  1. to facilitate the creation of XML datasets of arrowheads
-  2. Searches and visualisations of the arrowheads
+  - to facilitate the creation of XML datasets of arrowheads
+  - searches and visualisations of the arrowheads
