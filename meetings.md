@@ -1,15 +1,23 @@
 # Meeting #2
+
 Date: 30 Jan 2023 | 15h PT
+
 Local: CEOS.PP | ZOOM
+
 People:
-Repoerter:
+
+Reporter:
 
 
 
 # Meeting #1
+
 Date: 16 Jan 2023
+
 Local: CEOS.PP
+
 People: Mariana Malta, Marco Oliveira, Maria Luisa Diez
+
 Reporter: Marco Oliveira (Revised by Mariana Malta)
 
 It was defined that we will use XML technology  for the development of the project so that we can provide interoperability.
