@@ -1,18 +1,24 @@
 # Meeting #2
 
-Date: 30 Jan 2023 | 15h PT
+Date: 30 Jan 2023 | 14h PT
 
-Local: CEOS.PP | ZOOM
+Local: CEOS.PP 
 
-People:
+People: Marco Oliveira, Mariana Malta
 
-Reporter:
+Reporter: Marco Oliveira
+
+In this meeting, we discussed the multiple ways to identify the arrowheads in a unique way, coming to the conclusion that a reaserch on arrowheads was needed in order to reach a better understanding.
+Up to this point, there has been developed 2 XML files containing demonstrative information on arrowheads and an XSD file that defines the structure of the XML files mentioned before. The database eXist has also been installed, already containing the files mentioned before. This was necessary in order to begin testing and trying out various XPath functions.
+
+**TO DO:**
+  1. Marco: Find out if xml schemas about arrowheads already exist online and understand how they describe them.
 
 
 
 # Meeting #1
 
-Date: 16 Jan 2023
+Date: 16 Jan 2023 | 15h PT
 
 Local: CEOS.PP
 

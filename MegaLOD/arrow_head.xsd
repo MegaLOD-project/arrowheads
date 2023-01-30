@@ -13,9 +13,9 @@
     <xs:sequence>
         <xs:element name="order_number"/>
         <xs:element name="group"/>
-        <xs:element name="type"/>
-        <xs:element name="sub_type"/>
-        <xs:element name="variant"/>
+        <xs:element name="type" type="type"/>
+        <xs:element name="sub_type" type="subtype"/>
+        <xs:element name="variant" type="variant"/>
         <xs:element name="raw_material" type="typeRaw_Material"/>
         <xs:element name="observations"/>
     </xs:sequence>
@@ -38,6 +38,7 @@
         <xs:element name="body_lenght"/>
         <xs:element name="base_lenght"/>
     </xs:sequence>
+    <xs:attribute name="unit"/>
 </xs:complexType>
 
 <xs:complexType name="typeMorphology">
@@ -60,5 +61,43 @@
     </xs:sequence>
 </xs:complexType>
 
+<xs:simpleType name="type">
+    <xs:restriction base="xs:string">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            Body lengthening index
+        </xs:documentation>
+        <xs:documentation xml:lang="pt">
+            Índice de alongamento do corpo
+        </xs:documentation>
+    </xs:annotation>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="subtype">
+    <xs:restriction base="xs:boolean">
+        <xs:annotation>
+            <xs:documentation xml:lang="pt">
+                Presença ou não de aletas
+            </xs:documentation>
+            <xs:documentation xml:lang="en">
+                Presence or not of fins
+            </xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="variant">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="pt">
+                Índice de espessura ou carnagem
+            </xs:documentation>
+            <xs:documentation xml:lang="en">
+                Thickness index or fleshing
+            </xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
 
 </xs:schema>
