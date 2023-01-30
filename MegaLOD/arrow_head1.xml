@@ -3,14 +3,14 @@
 <!-- De forma a conseguir ligar o xsd com o xml, foi necessário recorrer ao RAW link da localização do ficheiro xsd, tendo em conta que o repositório
 onde este se encontra é privado, sendo assim preciso inserir um token que sinaliza as minhas permissões relativamente ao repositório-->
 <arrowhead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/MegaLOD-project/arrow-heads/main/MegaLOD/arrow_head.xsd?token=GHSAT0AAAAAAB525MFKAFGW72UVRWM465PUY6X5VOQ">
+xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/MegaLOD-project/arrow-heads/main/MegaLOD/arrow_head.xsd?token=GHSAT0AAAAAAB525MFLE3QKPTHXUQ3I5MEGY6X6V3A" inventory_number="1">
     <order_number>1</order_number>
     <group>1</group>
     <type>Type1</type>
     <sub_type>SubType 1</sub_type>
     <variant>Variant 1</variant>
     <raw_material>
-        <typometry unit="mm">
+        <typometry>
             <lenght>22</lenght>
             <width>22.36</width>
             <thickness>5</thickness>

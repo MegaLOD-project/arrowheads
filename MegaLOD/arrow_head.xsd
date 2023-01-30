@@ -32,7 +32,6 @@
         <xs:element name="body_lenght"/>
         <xs:element name="base_lenght"/>
     </xs:sequence>
-    <xs:attribute name="unit"/>
 </xs:complexType>
 
 <xs:complexType name="typeMorphology">
