@@ -12,7 +12,7 @@ In this meeting, we discussed the multiple ways to identify the arrowheads in a 
 Up to this point, there has been developed 2 XML files containing demonstrative information on arrowheads and an XSD file that defines the structure of the XML files mentioned before. The database eXist has also been installed, already containing the files mentioned before. This was necessary in order to begin testing and trying out various XPath functions.
 
 **TO DO:**
-  1. Marco: Find out if xml schemas about arrowheads already exist online and understand how they describe them.
+  1. Marco: Find out if xml schemas about arrowheads already exist online and understand how they describe them.  
 
 
 
