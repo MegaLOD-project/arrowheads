@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<arrowheads
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/MegaLOD-project/arrow-heads/main/MegaLOD/arrow_head.xsd?token=GHSAT0AAAAAAB525MFKACFIMXNJY75SVG5QY6XSH2Q">
-<arrowhead inventory_number="1">
+
+<arrowhead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\MegaLOD\arrow_head.xsd"
+inventory_number="2">
     <order_number>2</order_number>
     <group>2</group>
     <type>Type2</type>
-    <sub_type>SubType 2</sub_type>
-    <variant>Variant 2</variant>
+    <sub_type>false</sub_type>
+    <variant>6</variant>
     <raw_material>
         <typometry>
             <lenght>22</lenght>
@@ -33,4 +33,3 @@ xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/MegaLOD-project
     </raw_material>
     <observations>Ponta de Seta 2 de teste</observations>
 </arrowhead>
-</arrowheads>
