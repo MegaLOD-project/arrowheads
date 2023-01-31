@@ -1,3 +1,17 @@
+# Meeting #3
+
+Date: XX Feb 2023 | XX PT
+
+Local: CEOS.PP 
+
+People: Marco Oliveira, Mariana Malta
+
+Reporter: Marco Oliveira
+
+
+
+
+--------------------------------
 # Meeting #2
 
 Date: 30 Jan 2023 | 14h PT
