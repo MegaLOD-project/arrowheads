@@ -12,6 +12,7 @@
         <xs:element name="variant" type="variant"/>
         <xs:element name="raw_material" type="typeRaw_Material"/>
         <xs:element name="observations"/>
+        <xs:element name="image_url" type="xs:anyURI"/>
     </xs:sequence>
     <xs:attribute name="inventory_number"/>
 </xs:complexType>
