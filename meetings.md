@@ -14,7 +14,7 @@ Up to this point, there has been developed 2 XML files containing demonstrative 
 **TO DO:**
   1. Marco: Find out if xml schemas about arrowheads already exist online and understand how they describe them.  
 
-
+----------------------
 
 # Meeting #1
 
