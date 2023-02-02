@@ -1,3 +1,21 @@
+# Meeting #3
+
+Date: XX Feb 2023 | XX PT
+
+Local: CEOS.PP 
+
+People: Marco Oliveira, Mariana Malta
+
+Reporter: Marco Oliveira
+
+
+
+
+
+
+
+
+--------------------------------
 # Meeting #2
 
 Date: 30 Jan 2023 | 14h PT
@@ -14,7 +32,7 @@ Up to this point, there has been developed 2 XML files containing demonstrative 
 **TO DO:**
   1. Marco: Find out if xml schemas about arrowheads already exist online and understand how they describe them.  
 
-
+----------------------
 
 # Meeting #1
 
