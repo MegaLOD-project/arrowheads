@@ -1,6 +1,6 @@
 # Meeting #3
 
-Date: XX Feb 2023 | XX PT
+Date: 14 Feb 2023 | 14h PT
 
 Local: CEOS.PP 
 
@@ -8,10 +8,10 @@ People: Marco Oliveira, Mariana Malta
 
 Reporter: Marco Oliveira
 
+In order to explore all the options available to make the project interoperable with the most amount of systems possible, we explored the CIDOC CRM, more specificaly the CRMarcheo model, that focuses on an Excavation Model. The goal was to study this model and make sure our schema and dataset was using the correct labels in order to make the project the most accessible it could be. It was discussed during this meeting those possibilities and ways to implement the specific labels.
 
-
-
-
+**TO DO**
+1. Marco: Study the model and try to match their classes and properties with the already existing dataset.
 
 
 
