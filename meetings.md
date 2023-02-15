@@ -1,3 +1,21 @@
+# Meeting #4
+
+Date: 15 Feb 2023 | 10h PT
+
+Local: Zoom
+
+People: Marco Oliveira, Mariana Malta, Américo
+
+Reporter: Marco Oliveira
+
+After developing an initial schema and dataset, it was neeeded to consult with Américo (the archeologyst), to male sure that our schema had all the information required to describe the arrowheads. In this meeting, it was explained to him what had already been done to know if we were going in the right direction. It was discussed the multiple ways that we could aproach the situation and describe it. We ended up concluding that there was a lot of information yet to be described, in terms of elements in the schema and the specific types of data that was going to be inserted into the dataset.
+
+**TO DO**
+1. Marco: Make an Excel to send to Américo so that he can fill out the missing information about the elements, update the schema, update the data dictionary and update the meetings file.
+
+
+
+--------------------------------
 # Meeting #3
 
 Date: 14 Feb 2023 | 14h PT
