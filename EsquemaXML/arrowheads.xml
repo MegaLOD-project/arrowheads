@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <arrowheads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\MegaLOD\arrowhead.xsd">
+xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\arrowhead.xsd">
     <arrowhead inventory_number="1">
         <order_number>1</order_number>
         <group>1</group>
