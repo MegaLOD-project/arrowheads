@@ -1,105 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="arrowheads" type="arrowheadsType"/>
+<xs:include schemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\info.xsd"></xs:include>
 
-<xs:complexType name="arrowheadsType">
-    <xs:sequence>
-    <xs:element name="arrowhead" type="typeArrowHead" minOccurs="1" maxOccurs="unbounded"/>
-    </xs:sequence>
-</xs:complexType>
+<xs:element name="A9-ArchaeologicalExcavation" type="TypeArchaeologicalExcavation"/>
 
-
-<xs:complexType name="typeArrowHead">
-    <xs:sequence>
-        <xs:element name="order_number"/>
-        <xs:element name="group"/>
-        <xs:element name="type" type="type"/>
-        <xs:element name="sub_type" type="subtype"/>
-        <xs:element name="variant" type="variant"/>
-        <xs:element name="raw_material" type="typeRaw_Material"/>
-        <xs:element name="observations"/>
-        <xs:element name="image_url" type="xs:anyURI"/>
-    </xs:sequence>
-    <xs:attribute name="inventory_number"/>
-</xs:complexType>
-
-<xs:complexType name="typeRaw_Material">
-    <xs:sequence>
-        <xs:element name="typometry" type="typeTypometry"/>
-        <xs:element name="morphology" type="typeMorphology"/>
-        <xs:element name="retouch" type="typeRetouch"/>
-    </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="typeTypometry">
-    <xs:sequence>
-        <xs:element name="lenght"/>
-        <xs:element name="width"/>
-        <xs:element name="thickness"/>
-        <xs:element name="body_lenght"/>
-        <xs:element name="base_lenght"/>
-    </xs:sequence>
-    <xs:attribute name="unit"/>
-</xs:complexType>
-
-<xs:complexType name="typeMorphology">
-    <xs:sequence>
-        <xs:element name="point"/>
-        <xs:element name="body"/>
-        <xs:element name="base"/>
-    </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="typeRetouch">
-    <xs:sequence>
-        <xs:element name="mode"/>
-        <xs:element name="amplitude"/>
-        <xs:element name="direction"/>
-        <xs:element name="delineation"/>
-        <xs:element name="orientation"/>
-        <xs:element name="location"/>
-        <xs:element name="shape"/>
-    </xs:sequence>
-</xs:complexType>
-
-<xs:simpleType name="type">
-    <xs:restriction base="xs:string">
+<xs:complexType name="TypeArchaeologicalExcavation">
     <xs:annotation>
-        <xs:documentation xml:lang="en">
-            Body lengthening index
-        </xs:documentation>
-        <xs:documentation xml:lang="pt">
-            Índice de alongamento do corpo
+        <xs:documentation xml:lang="en">This class describes the general concept of archaeological excavation intended as a 
+            coordinated set ofactivities performed on an area considered as part of a broader topographical, rural, urban,
+             or monumental context. An archaeological excavation is usually under the responsibility of a 
+             coordinator, officially designated, which is legally and scientifically responsible for all the
+              activities carried out within each of the excavation process units and is also responsible for the 
+              documentation of the whole process.
         </xs:documentation>
     </xs:annotation>
-</xs:restriction>
-</xs:simpleType>
+    <xs:sequence>
+        <xs:element name="E53-Place" type="TypePlace" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
 
-<xs:simpleType name="subtype">
-    <xs:restriction base="xs:boolean">
-        <xs:annotation>
-            <xs:documentation xml:lang="pt">
-                Presença ou não de aletas
+<xs:complexType name="TypePlace">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">This class comprises extents in space, in particular on the surface of the earth, in 
+            the pure sense of physics: independent from temporal phenomena and matter. The instances of E53 Place are usually 
+            determined by reference to the position of “immobile” objects such as buildings, cities, mountains, rivers, or dedicated
+             geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. 
+             It may be identified by one or more instances of E44 Place Appellation. It is sometimes argued that instances of E53 
+             Place are best identified by global coordinates or absolute reference systems. However, relative references are often 
+             more relevant in the context of cultural documentation and tend to be more precise. In particular, we are often interested 
+             in position in relation to large, mobile objects, such as ships. For example, the Place at which Nelson died is known with
+              reference to a large mobile object – H.M.S Victory. A resolution of this Place in terms of absolute coordinates would 
+              require knowledge of the movements of the vessel and the precise time of death, either of which may be revised, 
+              and the result would lack historical and cultural relevance. Any object can serve as a frame of reference for E53 Place 
+              determination. The model foresees the notion of a ""section"" of an E19 Physical Object as a valid E53 Place determination.
             </xs:documentation>
-            <xs:documentation xml:lang="en">
-                Presence or not of fins
-            </xs:documentation>
-        </xs:annotation>
-    </xs:restriction>
-</xs:simpleType>
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name="Name" type="TypeName"/>
+        <xs:element name="District" type="TypeDistrict"/>
+        <xs:element name="Parish" type="TypeParish"/>
+        <xs:element name="Gps" type="TypeGps"/>
+        <xs:element name="A2-StratigraphicVolumeUnit" type="TypeStratigraphicVolumeUnit"/>
+    </xs:sequence>
+</xs:complexType>
 
-<xs:simpleType name="variant">
-    <xs:restriction base="xs:integer">
-        <xs:annotation>
-            <xs:documentation xml:lang="pt">
-                Índice de espessura ou carnagem
+<xs:complexType name="TypeGps">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">Gps coordinates to the excavation's location</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name="Latitude"/>
+        <xs:element name="Longitude"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypeStratigraphicVolumeUnit">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">"This class comprises instances of A8 Stratigraphic Unit which are connected portions of 
+            terrain or other solid structures on, in, or under the surface of earth or seafloor exhibiting some homogeneity of 
+            structure or substance and which are completely bounded by surfaces or discontinuities in substance or structure
+            with respect to other portions of the terrain or surfaces of objects or finds. Normally at least one of the surfaces, 
+            i.e. instances of A3 Stratigraphic Interface (such as the lower one), from the genesis event of the A2 Stratigraphic Volume 
+            Unit will remain during its existence. An instance of A2 Stratigraphic Volume Unit may contain physical objects"
             </xs:documentation>
-            <xs:documentation xml:lang="en">
-                Thickness index or fleshing
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name="Timeline" type="TypeTimeline"/>
+        <xs:element name="Description"/>
+        <xs:element name="Gps" type="TypeGps"/>
+        <xs:element name="S19-EncounterEvent" type="TypeEncounterEvent"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypeEncounterEvent">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">"This class comprises activities of S4 Observation (substance) where an E39 Actor encounters an
+            instance of E18 Physical Thing of a kind relevant for the mission of the observation or regarded as
+            potentially relevant for some community (identity). This observation produces knowledge about the
+            existence of the respective thing at a particular place in or on surrounding matter. This knowledge
+            may be new to the group of people the actor belongs to. In that case we would talk about a discovery.
+            The observer may recognize or assign an individual identity of the thing encountered or regard only
+            the type as noteworthy in the associated documentation or report. In archaeology there is a particular interest 
+            if an object is found “in situ”, i.e. if its embedding in the surrounding matter supports the assumption that the 
+            object was not moved since the archaeologically relevant deposition event. The surrounding matter with the relative 
+            position of the object in it as well as the absolute position and time of the observation may be recorded in order to 
+            enable inferences about the history of the E18 Physical Thing. In Biology, additional parameters may be recorded like 
+            the kind of ecosystem, if the biological individual survives the observation, what detection or catching devices have 
+            been used or if the encounter event supported the detection of a new biological kind (“taxon”)."
             </xs:documentation>
-        </xs:annotation>
-    </xs:restriction>
-</xs:simpleType>
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name="Date" type="TypeDate"/>
+        <xs:element name="E24-PhysicalManThing" type="TypePhysicalManThing"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypePhysicalManThing">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">"This class comprises all persistent physical items that are purposely created by human 
+            activity. This class comprises man-made objects, such as a swords, and man-made features, such as rock art. 
+            No assumptions are made as to the extent of modification required to justify regarding an object as man-made. 
+            For example, a “cup and ring” carving on bedrock is regarded as instance of E24 Physical Man-Made Thing. "
+        </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name ="E36-VisualItem" type="TypeVisualItem"/>
+        <xs:element name ="Order_number" type="TypeOrderNumber"/>
+        <xs:element name ="Group" type="TypeGroup"/>
+        <xs:element name="E3-ConditionState" type="TypeConditionState"/>
+        <xs:element name ="E55-Type" type="TypePhisycalType"/>
+        <xs:element name ="Variant" type="TypeVariant"/>
+        <xs:element name="Typometry" type="TypeTypometry"/>
+        <xs:element name ="Morphology" type="TypeMorphology"/>
+        <xs:element name="Retouch" type="TypeRetouch"/>
+        <xs:element name="Raw_material"/> <!-- FALTA DOCUMENTAÇÃO-->
+        <xs:element name="Observations"/> <!-- FALTA DOCUMENTAÇÃO-->
+    </xs:sequence>
+    <xs:attribute name="Inventory_number"/>
+</xs:complexType>
+
+<xs:complexType name="TypeGroup">
+    <xs:sequence>
+        <xs:element name="Group-name" type="TypeGroupName"/>
+        <xs:element name="Sub_type" type="TypeSubType"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypeConditionState">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">"This class comprises the states of objects characterised by a certain condition over a 
+            time-span. An instance of this class describes the prevailing physical condition of any material object or feature
+            during a specific E52 Time Span. In general, the time-span for which a certain condition can be asserted
+            may be shorter than the real time-span, for which this condition held. The nature of that condition can be described 
+            using P2 has type. For example, the E3 Condition State “condition of the SS Great Britain between 22 September 1846 
+            and 27 August 1847” can be characterized as E55 Type “wrecked”. "
+        </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+        <xs:element name="E55-Type" type="TypeConditionType"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypeTypometry">
+    <xs:sequence>
+        <xs:element name="Lenght" type="TypeLenght"/>
+        <xs:element name="Width" type="TypeWidth"/>
+        <xs:element name="Thickness" type="TypeThickness"/>
+        <xs:element name="Body_lenght" type="TypeBodyLenght"/>
+        <xs:element name="Base_lenght" type="TypeBaseLenght"/>
+    </xs:sequence>
+    <xs:attribute name="Unit"/>
+</xs:complexType>
+
+<xs:complexType name="TypeMorphology">
+    <xs:sequence>
+        <xs:element name="Point" type="TypePoint"/>
+        <xs:element name="Body" type="TypeBody"/>
+        <xs:element name="Base" type="TypeBase"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TypeRetouch">
+    <xs:sequence>
+        <xs:element name="Location"/>
+        <xs:element name="Mode"/>
+        <xs:element name="Amplitude"/>
+        <xs:element name="Direction"/>
+        <xs:element name="Delineation"/>
+        <xs:element name="Orientation"/>
+        <xs:element name="Shape"/>
+    </xs:sequence>
+</xs:complexType>
+
+
 
 </xs:schema>

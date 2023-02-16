@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<xs:simpleType name="TypeName">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Name of the excavation's location</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeDistrict">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Excavation's location district</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="TypeParish">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Excavation's location parish</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeTimeline">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">This element describes the specific timeline according to the layer </xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeDate">
+    <xs:restriction base="xs:date">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">This element describes the specific date of when an arrowhead is found </xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeVisualItem">
+    <xs:restriction base="xs:anyURI">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">This class comprises the intellectual or conceptual aspects of recognisable marks, 
+                images and other visual works.This class does not intend to describe the idiosyncratic characteristics of an 
+                individual physical embodiment of a visual item, but the underlying prototype. For example, a mark such as the ICOM 
+                logo is generally considered to be the same logo when used on any number of publications. The size, orientation and 
+                colour may change, but the logo remains uniquely identifiable. The same is true of images that are reproduced many 
+                times. This means that visual items are independent of their physical support. The class E36 Visual Item provides 
+                a means of identifying and linking together instances of E24 Physical Human-Made Thing that carry the same visual 
+                qualities (symbols, marks or images etc.). The property P62 depicts (is depicted by) between E24 Physical Human-Made 
+                Thing and depicted subjects (E1 CRM Entity) is a shortcut of the more fully developed path from E24 Physical 
+                Human-Made Thing through P65 shows visual item (is shown by), E36 Visual Item, P138 represents (has representation) 
+                to E1CRM Entity, which in addition captures the optical features of the depiction.</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeOrderNumber">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">This element is relative to the shape of the arrowhead</xs:documentation>
+        </xs:annotation>
+        <xs:enumeration value="Triangular"></xs:enumeration>
+        <xs:enumeration value="Losângica"></xs:enumeration>
+        <xs:enumeration value="Peduncolada"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypePhisycalType">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">"This class comprises concepts denoted by terms from thesauri and controlled 
+                vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent 
+                concepts in contrast to instances of E41 Appellation which are used to name instances of CRM classes. E55 Type is the 
+                CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 
+                Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). 
+                Such hierarchies may be extended with additional properties. "
+                </xs:documentation>
+        </xs:annotation>
+        <xs:enumeration value="Alongado"></xs:enumeration>
+        <xs:enumeration value="Curto"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeVariant">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Thickness index</xs:documentation>
+        </xs:annotation>
+        <xs:enumeration value="Abatida"></xs:enumeration>
+        <xs:enumeration value="Alteada"></xs:enumeration>
+        <xs:enumeration value="Espessa"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeGroupName">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang ="en">Related to the arrowhead's base</xs:documentation>
+        </xs:annotation>
+        <xs:enumeration value="Reta"></xs:enumeration>
+        <xs:enumeration value="Côncava"></xs:enumeration>
+        <xs:enumeration value="Convexa"></xs:enumeration>
+        <xs:enumeration value="Peduncolada"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeSubType">
+    <xs:restriction base="xs:boolean">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Presence or absence of fins</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeConditionType">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">"This class comprises concepts denoted by terms from thesauri and controlled 
+                vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent 
+                concepts in contrast to instances of E41 Appellation which are used to name instances of CRM classes. E55 Type is the 
+                CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 
+                Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). 
+                Such hierarchies may be extended with additional properties. "
+                </xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeLenght">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Lenght of the arrowhead</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeWidth">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Width of the arrowhead</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeThickness">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Thickness of the arrowhead</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeBodyLenght">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Lenght of the body of the arrowhead</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeBaseLenght">
+    <xs:restriction base="xs:integer">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Lenght of the base of the arrowhead</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypePoint">
+    <xs:restriction base="xs:boolean">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">If it is sharp or not</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeBody">
+    <xs:restriction base="xs:boolean">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">If it presents symmetry or not</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="TypeBase">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">....</xs:documentation>
+        </xs:annotation>
+        <xs:enumeration value="Reta"></xs:enumeration>
+        <xs:enumeration value="Côncava"></xs:enumeration>
+        <xs:enumeration value="Convexa"></xs:enumeration>
+        <xs:enumeration value="Triangular"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+</xs:schema>
