@@ -122,12 +122,12 @@
 <xs:simpleType name="TypeConditionType">
     <xs:restriction base="xs:string">
         <xs:annotation>
-            <xs:documentation xml:lang="en">"This class comprises concepts denoted by terms from thesauri and controlled 
+            <xs:documentation xml:lang="en">This class comprises concepts denoted by terms from thesauri and controlled 
                 vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent 
                 concepts in contrast to instances of E41 Appellation which are used to name instances of CRM classes. E55 Type is the 
                 CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 
                 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). 
-                Such hierarchies may be extended with additional properties. "
+                Such hierarchies may be extended with additional properties.
                 </xs:documentation>
         </xs:annotation>
     </xs:restriction>

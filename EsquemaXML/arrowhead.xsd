@@ -57,12 +57,12 @@
 
 <xs:complexType name="TypeStratigraphicVolumeUnit">
     <xs:annotation>
-        <xs:documentation xml:lang="en">"This class comprises instances of A8 Stratigraphic Unit which are connected portions of 
+        <xs:documentation xml:lang="en">This class comprises instances of A8 Stratigraphic Unit which are connected portions of 
             terrain or other solid structures on, in, or under the surface of earth or seafloor exhibiting some homogeneity of 
             structure or substance and which are completely bounded by surfaces or discontinuities in substance or structure
             with respect to other portions of the terrain or surfaces of objects or finds. Normally at least one of the surfaces, 
             i.e. instances of A3 Stratigraphic Interface (such as the lower one), from the genesis event of the A2 Stratigraphic Volume 
-            Unit will remain during its existence. An instance of A2 Stratigraphic Volume Unit may contain physical objects"
+            Unit will remain during its existence. An instance of A2 Stratigraphic Volume Unit may contain physical objects
             </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -75,7 +75,7 @@
 
 <xs:complexType name="TypeEncounterEvent">
     <xs:annotation>
-        <xs:documentation xml:lang="en">"This class comprises activities of S4 Observation (substance) where an E39 Actor encounters an
+        <xs:documentation xml:lang="en">This class comprises activities of S4 Observation (substance) where an E39 Actor encounters an
             instance of E18 Physical Thing of a kind relevant for the mission of the observation or regarded as
             potentially relevant for some community (identity). This observation produces knowledge about the
             existence of the respective thing at a particular place in or on surrounding matter. This knowledge
@@ -87,7 +87,7 @@
             position of the object in it as well as the absolute position and time of the observation may be recorded in order to 
             enable inferences about the history of the E18 Physical Thing. In Biology, additional parameters may be recorded like 
             the kind of ecosystem, if the biological individual survives the observation, what detection or catching devices have 
-            been used or if the encounter event supported the detection of a new biological kind (“taxon”)."
+            been used or if the encounter event supported the detection of a new biological kind (“taxon”).
             </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -98,10 +98,10 @@
 
 <xs:complexType name="TypePhysicalManThing">
     <xs:annotation>
-        <xs:documentation xml:lang="en">"This class comprises all persistent physical items that are purposely created by human 
+        <xs:documentation xml:lang="en">This class comprises all persistent physical items that are purposely created by human 
             activity. This class comprises man-made objects, such as a swords, and man-made features, such as rock art. 
             No assumptions are made as to the extent of modification required to justify regarding an object as man-made. 
-            For example, a “cup and ring” carving on bedrock is regarded as instance of E24 Physical Man-Made Thing. "
+            For example, a “cup and ring” carving on bedrock is regarded as instance of E24 Physical Man-Made Thing.
         </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -129,12 +129,12 @@
 
 <xs:complexType name="TypeConditionState">
     <xs:annotation>
-        <xs:documentation xml:lang="en">"This class comprises the states of objects characterised by a certain condition over a 
+        <xs:documentation xml:lang="en">This class comprises the states of objects characterised by a certain condition over a 
             time-span. An instance of this class describes the prevailing physical condition of any material object or feature
             during a specific E52 Time Span. In general, the time-span for which a certain condition can be asserted
             may be shorter than the real time-span, for which this condition held. The nature of that condition can be described 
             using P2 has type. For example, the E3 Condition State “condition of the SS Great Britain between 22 September 1846 
-            and 27 August 1847” can be characterized as E55 Type “wrecked”. "
+            and 27 August 1847” can be characterized as E55 Type “wrecked”.
         </xs:documentation>
     </xs:annotation>
     <xs:sequence>
