@@ -17,30 +17,30 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                 <Longitude></Longitude>
             </Gps>
             <S19-EncounterEvent>
-                <Date></Date>
+                <Date>2001-11-12</Date>
                 <E24-PhysicalManThing Inventory_number="1">
                     <E36-VisualItem></E36-VisualItem>
-                    <Order_number></Order_number>
+                    <Order_number>Triangular</Order_number>
                     <Group>
-                        <Group-type></Group-type>
-                        <Sub_type></Sub_type>
+                        <Group-name>Reta</Group-name>
+                        <Sub_type>true</Sub_type>
                     </Group>
                     <E3-ConditionState>
                         <E55-Type></E55-Type>
                     </E3-ConditionState>
-                    <E55-Type></E55-Type>
-                    <Variant></Variant>
+                    <E55-Type>Alongado</E55-Type>
+                    <Variant>Espessa</Variant>
                     <Typometry Unit="mm">
-                        <Lenght></Lenght>
-                        <Width></Width>
-                        <Thickness></Thickness>
-                        <Body_lenght></Body_lenght>
-                        <Base_lenght></Base_lenght>
+                        <Lenght>23</Lenght>
+                        <Width>12</Width>
+                        <Thickness>5</Thickness>
+                        <Body_lenght>19</Body_lenght>
+                        <Base_lenght>4</Base_lenght>
                     </Typometry>
                     <Morphology>
-                        <Point></Point>
-                        <Body></Body>
-                        <Base></Base>
+                        <Point>true</Point>
+                        <Body>false</Body>
+                        <Base>Triangular</Base>
                     </Morphology>
                     <Retouch>
                         <Location></Location>

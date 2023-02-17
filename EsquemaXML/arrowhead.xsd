@@ -163,13 +163,13 @@
 
 <xs:complexType name="TypeRetouch">
     <xs:sequence>
-        <xs:element name="Location"/>
-        <xs:element name="Mode"/>
-        <xs:element name="Amplitude"/>
-        <xs:element name="Direction"/>
-        <xs:element name="Delineation"/>
-        <xs:element name="Orientation"/>
-        <xs:element name="Shape"/>
+        <xs:element name="Location" type="TypeLocation"/>
+        <xs:element name="Mode" type="TypeMode"/>
+        <xs:element name="Amplitude" type="TypeAmplitude"/>
+        <xs:element name="Direction" type="TypeDirection"/>
+        <xs:element name="Delineation" type="TypeDelineation"/>
+        <xs:element name="Orientation" type="TypeOrientation"/>
+        <xs:element name="Shape" type="TypeShape"/>
     </xs:sequence>
 </xs:complexType>
 

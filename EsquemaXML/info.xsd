@@ -189,6 +189,7 @@
     </xs:restriction>
 </xs:simpleType>
 
+<!-- FROM HERE, INFORMATION IS MISSING-->
 
 <xs:simpleType name="TypeBase">
     <xs:restriction base="xs:string">
@@ -199,6 +200,63 @@
         <xs:enumeration value="Côncava"></xs:enumeration>
         <xs:enumeration value="Convexa"></xs:enumeration>
         <xs:enumeration value="Triangular"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="TypeLocation">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeMode">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeAmplitude">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeDirection">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeDelineation">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeOrientation">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeShape">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation>MISSING INFO</xs:documentation>
+        </xs:annotation>
     </xs:restriction>
 </xs:simpleType>
 </xs:schema>
