@@ -1,3 +1,21 @@
+# Meeting #5
+
+Date: 17 Feb 2023 | 10h PT
+
+Local: Gabinete 334
+
+People: Marco Oliveira, Rui Humberto
+
+Reporter: Marco Oliveira
+
+In this meeting, it was discussed the current state of the development of the project. We came to the conclusion that the way that I was showing the results of XQuery was sub optimal since the html formating was being done and writen within the database. The right thing to do was to ask and query the database, retrive from it an XML file and format from outside of the database. The formating will probably be done with PHP.
+
+**TO DO**
+1. Marco: Change the code in order to fulfil the goals discussed in the meeting.
+          Study XQuery.
+
+
+--------------------------------
 # Meeting #4
 
 Date: 15 Feb 2023 | 10h PT
