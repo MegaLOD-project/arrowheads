@@ -1,3 +1,33 @@
+# Meeting #6
+Date: 27 Feb 2023 | 16h00 PT
+
+Local: CEOS.PP
+
+People: Mariana Curado Malta, Maria Luisa Diez-Platas
+
+Reporter: Mariana Curado Malta
+Mariana presented the data model as it is now after the discussion with Américo. Maria Luisa said we needed to use a technique standard to present the model. She will decide that. The conceptual model will be done later.
+
+
+**TO DO**
+2. Maria Luisa will draw the physical model having as basis the model that already exists. After that we will decide how to draw the concepuatl model (technique to decide: e.g. E-R diagram)
+
+----------------------------------
+# Meeting #6
+Date: 27 Feb 2023 | 9h30 PT
+
+Local: CEOS.PP
+
+People: Marco Oliveira, Maria Luisa Diez-Platas
+
+Reporter: Marco Oliveira
+
+
+
+**TO DO**
+
+          
+---------------------------------------
 # Meeting #5
 
 Date: 17 Feb 2023 | 10h PT
@@ -8,11 +38,13 @@ People: Marco Oliveira, Rui Humberto
 
 Reporter: Marco Oliveira
 
-In this meeting, it was discussed the current state of the development of the project. We came to the conclusion that the way that I was showing the results of XQuery was sub optimal since the html formating was being done and writen within the database. The right thing to do was to ask and query the database, retrive from it an XML file and format from outside of the database. The formating will probably be done with PHP.
+In this meeting, it was discussed the current state of the development of the project. We came to the conclusion that the way that MArcoo was showing the results of XQuery was sub optimal since the html formating was being done and written within the database. 
+
+The right thing to do is to ask and query the database, retrieving an XML file formating it on te fly. The formating should probably be done with PHP.
 
 **TO DO**
 1. Marco: Change the code in order to fulfil the goals discussed in the meeting.
-          Study XQuery.
+          MArco studies XQuery language.
 
 
 --------------------------------
