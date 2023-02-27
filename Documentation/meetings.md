@@ -22,9 +22,12 @@ People: Marco Oliveira, Maria Luisa Diez-Platas
 
 Reporter: Marco Oliveira
 
+Marco explained all of his doubts regarding the development of the website. Maria Luisa explained how the GET method worked and how the form was needed in order to use the information inserted by the user. All the information inserted has to be transfered through parameters in the url. Maria Luisa also provided Marco with some example files on how to do the search.
+
 
 
 **TO DO**
+1. Marco: Transpose the content of the example files onto the project.
 
           
 ---------------------------------------

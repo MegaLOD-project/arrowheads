@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:include schemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\info.xsd"></xs:include>
+<xs:include schemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\Code\EsquemaXML\info.xsd"></xs:include>
 
 <xs:element name="A9-ArchaeologicalExcavation" type="TypeArchaeologicalExcavation"/>
 
