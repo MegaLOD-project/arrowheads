@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <A9-ArchaeologicalExcavation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\Code\EsquemaXML\arrowhead.xsd">
+xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\arrowhead.xsd">
     <E53-Place>
         <Name>asdad</Name>
         <District></District>
