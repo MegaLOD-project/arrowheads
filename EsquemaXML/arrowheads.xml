@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="arrowhead.xslt" type="text/xsl" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <A9-ArchaeologicalExcavation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\arrowhead.xsd">
     <E53-Place>
@@ -20,10 +21,10 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                 <Date>2001-11-12</Date>
                 <E24-PhysicalManThing Inventory_number="1">
                     <E36-VisualItem></E36-VisualItem>
-                    <Order_number>Triangular</Order_number>
+                    <OrderNumber>Triangular</OrderNumber>
                     <Group>
-                        <Group-name>Reta</Group-name>
-                        <Sub_type>true</Sub_type>
+                        <GroupName>Reta</GroupName>
+                        <SubType>true</SubType>
                     </Group>
                     <E3-ConditionState>
                         <E55-Type></E55-Type>
@@ -34,8 +35,8 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <Lenght>23</Lenght>
                         <Width>12</Width>
                         <Thickness>5</Thickness>
-                        <Body_lenght>19</Body_lenght>
-                        <Base_lenght>4</Base_lenght>
+                        <BodyLenght>19</BodyLenght>
+                        <BaseLenght>4</BaseLenght>
                     </Typometry>
                     <Morphology>
                         <Point>true</Point>
@@ -51,7 +52,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <Orientation></Orientation>
                         <Shape></Shape>
                     </Retouch>
-                    <Raw_material></Raw_material>
+                    <RawMaterial></RawMaterial>
                     <Observations></Observations>
                 </E24-PhysicalManThing>
             </S19-EncounterEvent>
@@ -74,24 +75,24 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             </Gps>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
-                <E24-PhysicalManThing Inventory_number="1">
+                <E24-PhysicalManThing Inventory_number="2">
                     <E36-VisualItem></E36-VisualItem>
-                    <Order_number>Triangular</Order_number>
+                    <OrderNumber>Triangular</OrderNumber>
                     <Group>
-                        <Group-name>Reta</Group-name>
-                        <Sub_type>true</Sub_type>
+                        <GroupName>Reta</GroupName>
+                        <SubType>true</SubType>
                     </Group>
                     <E3-ConditionState>
                         <E55-Type></E55-Type>
                     </E3-ConditionState>
                     <E55-Type>Alongado</E55-Type>
-                    <Variant>Espessa</Variant>
+                    <Variant>Abatida</Variant>
                     <Typometry Unit="mm">
                         <Lenght>23</Lenght>
                         <Width>12</Width>
                         <Thickness>5</Thickness>
-                        <Body_lenght>19</Body_lenght>
-                        <Base_lenght>4</Base_lenght>
+                        <BodyLenght>19</BodyLenght>
+                        <BaseLenght>4</BaseLenght>
                     </Typometry>
                     <Morphology>
                         <Point>true</Point>
@@ -107,7 +108,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <Orientation></Orientation>
                         <Shape></Shape>
                     </Retouch>
-                    <Raw_material></Raw_material>
+                    <RawMaterial></RawMaterial>
                     <Observations></Observations>
                 </E24-PhysicalManThing>
             </S19-EncounterEvent>
@@ -130,24 +131,24 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             </Gps>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
-                <E24-PhysicalManThing Inventory_number="1">
+                <E24-PhysicalManThing Inventory_number="3">
                     <E36-VisualItem></E36-VisualItem>
-                    <Order_number>Triangular</Order_number>
+                    <OrderNumber>Triangular</OrderNumber>
                     <Group>
-                        <Group-name>Reta</Group-name>
-                        <Sub_type>true</Sub_type>
+                        <GroupName>Reta</GroupName>
+                        <SubType>true</SubType>
                     </Group>
                     <E3-ConditionState>
                         <E55-Type></E55-Type>
                     </E3-ConditionState>
                     <E55-Type>Alongado</E55-Type>
-                    <Variant>Espessa</Variant>
+                    <Variant>Alteada</Variant>
                     <Typometry Unit="mm">
                         <Lenght>23</Lenght>
                         <Width>12</Width>
                         <Thickness>5</Thickness>
-                        <Body_lenght>19</Body_lenght>
-                        <Base_lenght>4</Base_lenght>
+                        <BodyLenght>19</BodyLenght>
+                        <BaseLenght>4</BaseLenght>
                     </Typometry>
                     <Morphology>
                         <Point>true</Point>
@@ -163,7 +164,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <Orientation></Orientation>
                         <Shape></Shape>
                     </Retouch>
-                    <Raw_material></Raw_material>
+                    <RawMaterial></RawMaterial>
                     <Observations></Observations>
                 </E24-PhysicalManThing>
             </S19-EncounterEvent>

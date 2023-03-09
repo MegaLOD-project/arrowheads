@@ -68,7 +68,7 @@
     <xs:sequence>
         <xs:element name="Timeline" type="TypeTimeline"/>
         <xs:element name="Description" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Gps" type="TypeGps" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Gps" type="TypeGps" minOccurs="1" maxOccurs="1"/> <!-- Provavelmente será "profundidade"-->
         <xs:element name="S19-EncounterEvent" type="TypeEncounterEvent" minOccurs="1" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
@@ -106,7 +106,7 @@
     </xs:annotation>
     <xs:sequence>
         <xs:element name ="E36-VisualItem" type="TypeVisualItem" minOccurs="1" maxOccurs="1"/>
-        <xs:element name ="Order_number" type="TypeOrderNumber" minOccurs="1" maxOccurs="1"/>
+        <xs:element name ="OrderNumber" type="TypeOrderNumber" minOccurs="1" maxOccurs="1"/>
         <xs:element name ="Group" type="TypeGroup" minOccurs="1" maxOccurs="1"/>
         <xs:element name="E3-ConditionState" type="TypeConditionState" minOccurs="1" maxOccurs="1"/>
         <xs:element name ="E55-Type" type="TypePhisycalType" minOccurs="1" maxOccurs="1"/>
@@ -114,7 +114,7 @@
         <xs:element name="Typometry" type="TypeTypometry" minOccurs="1" maxOccurs="1"/>
         <xs:element name ="Morphology" type="TypeMorphology" minOccurs="1" maxOccurs="1"/>
         <xs:element name="Retouch" type="TypeRetouch" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Raw_material" minOccurs="1" maxOccurs="1"/> <!-- FALTA DOCUMENTAÇÃO-->
+        <xs:element name="RawMaterial" minOccurs="1" maxOccurs="1"/> <!-- FALTA DOCUMENTAÇÃO-->
         <xs:element name="Observations" minOccurs="1" maxOccurs="1"/> <!-- FALTA DOCUMENTAÇÃO-->
     </xs:sequence>
     <xs:attribute name="Inventory_number"/>
@@ -122,8 +122,8 @@
 
 <xs:complexType name="TypeGroup">
     <xs:sequence>
-        <xs:element name="Group-name" type="TypeGroupName" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Sub_type" type="TypeSubType" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="GroupName" type="TypeGroupName" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="SubType" type="TypeSubType" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
 </xs:complexType>
 
@@ -147,8 +147,8 @@
         <xs:element name="Lenght" type="TypeLenght" minOccurs="1" maxOccurs="1"/>
         <xs:element name="Width" type="TypeWidth" minOccurs="1" maxOccurs="1"/>
         <xs:element name="Thickness" type="TypeThickness" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Body_lenght" type="TypeBodyLenght" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Base_lenght" type="TypeBaseLenght" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="BodyLenght" type="TypeBodyLenght" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="BaseLenght" type="TypeBaseLenght" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
     <xs:attribute name="Unit"/>
 </xs:complexType>
