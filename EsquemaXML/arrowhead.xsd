@@ -68,7 +68,7 @@
     <xs:sequence>
         <xs:element name="Timeline" type="TypeTimeline"/>
         <xs:element name="Description" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Gps" type="TypeGps" minOccurs="1" maxOccurs="1"/> <!-- Provavelmente será "profundidade"-->
+        <xs:element name="Depth" type="TypeDepth" minOccurs="1" maxOccurs="1"/> <!-- Provavelmente será "profundidade"-->
         <xs:element name="S19-EncounterEvent" type="TypeEncounterEvent" minOccurs="1" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
@@ -127,20 +127,6 @@
     </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="TypeConditionState">
-    <xs:annotation>
-        <xs:documentation xml:lang="en">This class comprises the states of objects characterised by a certain condition over a 
-            time-span. An instance of this class describes the prevailing physical condition of any material object or feature
-            during a specific E52 Time Span. In general, the time-span for which a certain condition can be asserted
-            may be shorter than the real time-span, for which this condition held. The nature of that condition can be described 
-            using P2 has type. For example, the E3 Condition State “condition of the SS Great Britain between 22 September 1846 
-            and 27 August 1847” can be characterized as E55 Type “wrecked”.
-        </xs:documentation>
-    </xs:annotation>
-    <xs:sequence>
-        <xs:element name="E55-Type" type="TypeConditionType"  minOccurs="1" maxOccurs="unbounded"/>
-    </xs:sequence>
-</xs:complexType>
 
 <xs:complexType name="TypeTypometry">
     <xs:sequence>

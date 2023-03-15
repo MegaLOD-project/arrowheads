@@ -13,10 +13,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
         <A2-StratigraphicVolumeUnit>
             <Timeline></Timeline>
             <Description></Description>
-            <Gps>
-                <Latitude></Latitude>
-                <Longitude></Longitude>
-            </Gps>
+            <Depth></Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
                 <E24-PhysicalManThing Inventory_number="1">
@@ -26,9 +23,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <GroupName>Reta</GroupName>
                         <SubType>true</SubType>
                     </Group>
-                    <E3-ConditionState>
-                        <E55-Type></E55-Type>
-                    </E3-ConditionState>
+                    <E3-ConditionState>asad</E3-ConditionState>
                     <E55-Type>Alongado</E55-Type>
                     <Variant>Espessa</Variant>
                     <Typometry Unit="mm">
@@ -69,22 +64,17 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
         <A2-StratigraphicVolumeUnit>
             <Timeline></Timeline>
             <Description></Description>
-            <Gps>
-                <Latitude></Latitude>
-                <Longitude></Longitude>
-            </Gps>
+            <Depth></Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
                 <E24-PhysicalManThing Inventory_number="2">
                     <E36-VisualItem></E36-VisualItem>
-                    <OrderNumber>Triangular</OrderNumber>
+                    <OrderNumber>Losângica</OrderNumber>
                     <Group>
                         <GroupName>Reta</GroupName>
                         <SubType>true</SubType>
                     </Group>
-                    <E3-ConditionState>
-                        <E55-Type></E55-Type>
-                    </E3-ConditionState>
+                    <E3-ConditionState></E3-ConditionState>
                     <E55-Type>Alongado</E55-Type>
                     <Variant>Abatida</Variant>
                     <Typometry Unit="mm">
@@ -125,10 +115,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
         <A2-StratigraphicVolumeUnit>
             <Timeline></Timeline>
             <Description></Description>
-            <Gps>
-                <Latitude></Latitude>
-                <Longitude></Longitude>
-            </Gps>
+            <Depth></Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
                 <E24-PhysicalManThing Inventory_number="3">
@@ -138,9 +125,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
                         <GroupName>Reta</GroupName>
                         <SubType>true</SubType>
                     </Group>
-                    <E3-ConditionState>
-                        <E55-Type></E55-Type>
-                    </E3-ConditionState>
+                    <E3-ConditionState></E3-ConditionState>
                     <E55-Type>Alongado</E55-Type>
                     <Variant>Alteada</Variant>
                     <Typometry Unit="mm">

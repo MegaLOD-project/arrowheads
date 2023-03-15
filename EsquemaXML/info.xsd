@@ -119,19 +119,6 @@
     </xs:restriction>
 </xs:simpleType>
 
-<xs:simpleType name="TypeConditionType">
-    <xs:restriction base="xs:string">
-        <xs:annotation>
-            <xs:documentation xml:lang="en">This class comprises concepts denoted by terms from thesauri and controlled 
-                vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent 
-                concepts in contrast to instances of E41 Appellation which are used to name instances of CRM classes. E55 Type is the 
-                CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 
-                Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader term (has narrower term). 
-                Such hierarchies may be extended with additional properties.
-                </xs:documentation>
-        </xs:annotation>
-    </xs:restriction>
-</xs:simpleType>
 
 <xs:simpleType name="TypeLenght">
     <xs:restriction base="xs:integer">
@@ -185,6 +172,28 @@
     <xs:restriction base="xs:boolean">
         <xs:annotation>
             <xs:documentation xml:lang="en">If it presents symmetry or not</xs:documentation>
+        </xs:annotation>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeConditionState">
+    <xs:restriction base="xs:string">
+    <xs:annotation>
+        <xs:documentation xml:lang="en">This class comprises the states of objects characterised by a certain condition over a 
+            time-span. An instance of this class describes the prevailing physical condition of any material object or feature
+            during a specific E52 Time Span. In general, the time-span for which a certain condition can be asserted
+            may be shorter than the real time-span, for which this condition held. The nature of that condition can be described 
+            using P2 has type. For example, the E3 Condition State “condition of the SS Great Britain between 22 September 1846 
+            and 27 August 1847” can be characterized as E55 Type “wrecked”.
+        </xs:documentation>
+    </xs:annotation>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="TypeDepth">
+    <xs:restriction base="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en"></xs:documentation>
         </xs:annotation>
     </xs:restriction>
 </xs:simpleType>
