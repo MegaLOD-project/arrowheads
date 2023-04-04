@@ -191,7 +191,7 @@
 </xs:simpleType>
 
 <xs:simpleType name="TypeDepth">
-    <xs:restriction base="xs:string">
+    <xs:restriction base="xs:integer">
         <xs:annotation>
             <xs:documentation xml:lang="en"></xs:documentation>
         </xs:annotation>
