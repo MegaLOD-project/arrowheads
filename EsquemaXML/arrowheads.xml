@@ -16,7 +16,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <Depth>300</Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
-                <E24-PhysicalManThing Inventory_number="1">
+                <E24-PhysicalManThing InventoryNumber="1">
                     <E36-VisualItem>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Fleche_Cartailhac_MHNT_PRE_2009.0.232.2_simple.jpg/800px-Fleche_Cartailhac_MHNT_PRE_2009.0.232.2_simple.jpg</E36-VisualItem>
                     <OrderNumber>Triangular</OrderNumber>
                     <Group>
@@ -67,7 +67,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <Depth>500</Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-14</Date>
-                <E24-PhysicalManThing Inventory_number="2">
+                <E24-PhysicalManThing InventoryNumber="2">
                     <E36-VisualItem>https://www.cascais.pt/sites/default/files/styles/galeria-new/public/imagens/galerias/new/foto05.jpg?itok=TVYiKKJV</E36-VisualItem>
                     <OrderNumber>Peduncolada</OrderNumber>
                     <Group>
@@ -118,7 +118,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <Depth>600</Depth>
             <S19-EncounterEvent>
                 <Date>2001-11-22</Date>
-                <E24-PhysicalManThing Inventory_number="3">
+                <E24-PhysicalManThing InventoryNumber="3">
                     <E36-VisualItem>https://www.cascais.pt/sites/default/files/styles/galeria-new/public/imagens/galerias/new/foto06.jpg?itok=NcRhRatB</E36-VisualItem>
                     <OrderNumber>Losângica</OrderNumber>
                     <Group>

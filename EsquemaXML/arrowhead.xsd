@@ -117,7 +117,7 @@
         <xs:element name="RawMaterial" minOccurs="1" maxOccurs="1"/> <!-- FALTA DOCUMENTAÇÃO-->
         <xs:element name="Observations" minOccurs="1" maxOccurs="1"/> <!-- FALTA DOCUMENTAÇÃO-->
     </xs:sequence>
-    <xs:attribute name="Inventory_number"/>
+    <xs:attribute name="InventoryNumber"/>
 </xs:complexType>
 
 <xs:complexType name="TypeGroup">
