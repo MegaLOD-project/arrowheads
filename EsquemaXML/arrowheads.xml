@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="arrowhead.xslt" type="text/xsl" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<A9-ArchaeologicalExcavation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\arrowhead.xsd">
+<A9-ArchaeologicalExcavation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Projeto MegaLOD\arrow-heads\EsquemaXML\arrowhead.xsd">
     <E53-Place>
         <Name>Place1</Name>
         <District>District1</District>
         <Parish>Parish1</Parish>
         <Gps>
-            <Latitude></Latitude>
-            <Longitude></Longitude>
+            <Latitude/>
+            <Longitude/>
         </Gps>
         <A2-StratigraphicVolumeUnit>
             <Timeline>Timeline1</Timeline>
@@ -17,7 +15,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <S19-EncounterEvent>
                 <Date>2001-11-12</Date>
                 <E24-PhysicalManThing InventoryNumber="1">
-                    <E36-VisualItem>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Fleche_Cartailhac_MHNT_PRE_2009.0.232.2_simple.jpg/800px-Fleche_Cartailhac_MHNT_PRE_2009.0.232.2_simple.jpg</E36-VisualItem>
+                    <E36-VisualItem>arrowhead1.jpg</E36-VisualItem>
                     <OrderNumber>Triangular</OrderNumber>
                     <Group>
                         <GroupName>Reta</GroupName>
@@ -58,8 +56,8 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
         <District>District2</District>
         <Parish>Parish2</Parish>
         <Gps>
-            <Latitude></Latitude>
-            <Longitude></Longitude>
+            <Latitude/>
+            <Longitude/>
         </Gps>
         <A2-StratigraphicVolumeUnit>
             <Timeline>Timeline2</Timeline>
@@ -68,10 +66,10 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <S19-EncounterEvent>
                 <Date>2001-11-14</Date>
                 <E24-PhysicalManThing InventoryNumber="2">
-                    <E36-VisualItem>https://www.cascais.pt/sites/default/files/styles/galeria-new/public/imagens/galerias/new/foto05.jpg?itok=TVYiKKJV</E36-VisualItem>
+                    <E36-VisualItem>arrowhead2.jpg</E36-VisualItem>
                     <OrderNumber>Peduncolada</OrderNumber>
                     <Group>
-                        <GroupName>Convexa</GroupName>
+                        <GroupName>Reta</GroupName>
                         <SubType>false</SubType>
                     </Group>
                     <E3-ConditionState>Condition2</E3-ConditionState>
@@ -109,8 +107,8 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
         <District>District3</District>
         <Parish>Parish3</Parish>
         <Gps>
-            <Latitude></Latitude>
-            <Longitude></Longitude>
+            <Latitude/>
+            <Longitude/>
         </Gps>
         <A2-StratigraphicVolumeUnit>
             <Timeline>Timeline3</Timeline>
@@ -119,7 +117,7 @@ xsi:noNamespaceSchemaLocation="C:\Users\mark2\OneDrive\Ambiente de Trabalho\Proj
             <S19-EncounterEvent>
                 <Date>2001-11-22</Date>
                 <E24-PhysicalManThing InventoryNumber="3">
-                    <E36-VisualItem>https://www.cascais.pt/sites/default/files/styles/galeria-new/public/imagens/galerias/new/foto06.jpg?itok=NcRhRatB</E36-VisualItem>
+                    <E36-VisualItem>arrowhead3.jpg</E36-VisualItem>
                     <OrderNumber>Losângica</OrderNumber>
                     <Group>
                         <GroupName>Côncava</GroupName>

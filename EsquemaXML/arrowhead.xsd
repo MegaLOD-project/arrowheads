@@ -68,7 +68,7 @@
     <xs:sequence>
         <xs:element name="Timeline" type="TypeTimeline"/>
         <xs:element name="Description" minOccurs="1" maxOccurs="1"/>
-        <xs:element name="Depth" type="TypeDepth" minOccurs="1" maxOccurs="1"/> <!-- Provavelmente será "profundidade"-->
+        <xs:element name="Depth" type="TypeDepth" minOccurs="1" maxOccurs="1"/>
         <xs:element name="S19-EncounterEvent" type="TypeEncounterEvent" minOccurs="1" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
@@ -109,7 +109,7 @@
         <xs:element name ="OrderNumber" type="TypeOrderNumber" minOccurs="1" maxOccurs="1"/>
         <xs:element name ="Group" type="TypeGroup" minOccurs="1" maxOccurs="1"/>
         <xs:element name="E3-ConditionState" type="TypeConditionState" minOccurs="1" maxOccurs="1"/>
-        <xs:element name ="E55-Type" type="TypePhisycalType" minOccurs="1" maxOccurs="1"/>
+        <xs:element name ="E55-Type" type="TypePhisycalType" minOccurs="1" maxOccurs="unbounded"/>
         <xs:element name ="Variant" type="TypeVariant"  minOccurs="1" maxOccurs="1"/>
         <xs:element name="Typometry" type="TypeTypometry" minOccurs="1" maxOccurs="1"/>
         <xs:element name ="Morphology" type="TypeMorphology" minOccurs="1" maxOccurs="1"/>
