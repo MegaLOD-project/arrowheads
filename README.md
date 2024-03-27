@@ -6,7 +6,7 @@ This repository serves as a set of practices for defining models and datasets of
 The "ArrowHead" project aims to develop a website that will be a repository of arrowheads from the Chalcolithic and the Early/Middle Bronze Ages in Portugal. This website would serve the general public interested in arrowheads, researchers, and postgraduate students in this subject. The repository will provide two data services: a SPARQL server and an API/XML service.
 
 The specific objectives of the project are:
-1. to define the functional requirements of the website;
+1. to define the requirements of the website (functional, non-functional, informational);
 2. to define a technology-independent conceptual model for the description of arrowheads from the Chalcolithic and the Early/Middle Bronze Age in Portugal;
 3. to define two data models:
     3.1 XSD model;
