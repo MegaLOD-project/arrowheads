@@ -1,4 +1,4 @@
-![imagem](https://github.com/MegaLOD-project/arrowheads/assets/10036493/5704f368-0a95-48c0-8a68-a8ae3986d675)# Arrowhead Project - MAP
+# Arrowhead Project - MAP
 
 # NameSpaces
 | Prefix     | URI                                                   |
