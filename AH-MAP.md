@@ -1,7 +1,7 @@
 # Arrowhead Project - MAP
 
-#NameSpaces
-namespaces	
+# NameSpaces
+
 |dct	|http://purl.org/dc/terms/|
 |dul	|http://www.ontologydesignpatterns.org/ont/dul/DUL.owl|
 |foaf	|http://xmlns.com/foaf/0.1/|
