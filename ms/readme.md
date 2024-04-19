@@ -1,7 +1,7 @@
-#Metadata Application Profiles - metadata schemes
+# Metadata Application Profiles - metadata schemes
 THese two metadata schemes were created to be used with the Arrowhead Metadatata Application Profile.
 
-#Excavation Metadata Scheme
+# Excavation Metadata Scheme
 | Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
 |-----------------------------------------|-------------------------|------------------------------------------|------------------------------------------|
 | Archaeologist                           | excav:Archaeologist     |                                          |                                          |
@@ -15,7 +15,7 @@ THese two metadata schemes were created to be used with the Arrowhead Metadatata
 | Item found In a Excavation              | ah:foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
 
 
-#Arroweahd Meatadata Scheme
+# Arroweahd Meatadata Scheme
 | Label                                         | Vocabulary Term                | Domain                           | Range            | VES                    |
 |-----------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
 | Morphology                                    | ah:Morphology                  |                                  |                  |                        |
