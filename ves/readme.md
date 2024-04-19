@@ -1,6 +1,8 @@
 # Arrowhead Project - Vocabulary Encondig Schemes
 These Vocabulary Encoding Schemes are to be used with the metadata schemes of the arrowhead project. 
-THe following table presents the VES.
+THe following table presents the VES. URI: http://purl.org/ah/ves/
+
+
 
 | VES                    | URI                          | Values                                      |
 |------------------------|------------------------------|---------------------------------------------|
