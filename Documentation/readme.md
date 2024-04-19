@@ -1,1 +1,1 @@
-#This folder presents all the documentation of the repository.
+#This folder presents all the documentation of the Arrowhead project.
