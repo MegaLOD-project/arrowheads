@@ -1,5 +1,5 @@
-# Metadata Application Profiles - metadata schemes
-THese two metadata schemes were created to be used with the Arrowhead Metadatata Application Profile.
+# Arrowhead Project Metadata Schemes
+These two metadata schemes were created to be used with the Arrowhead Metadatata Application Profile (see http://purl.org/ah/map/)
 
 # Excavation Metadata Scheme
 | Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
