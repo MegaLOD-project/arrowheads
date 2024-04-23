@@ -5,6 +5,7 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
 |-----------------------------------------|-------------------------|------------------------------------------|------------------------------------------|
 | Archaeologist                           | excav:Archaeologist     |                                          |                                          |
+| Before (True) or After (False) christ   | excav:bc                | time:Instant                             | xsd:boolean                              |
 | has GPS Coordinates                     | excav:hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
 | has a person in charge                  | ah:hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
 | has context                             | ah:hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
@@ -16,26 +17,27 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 
 
 # Arroweahd Meatadata Scheme
-| Label                                         | Vocabulary Term                | Domain                           | Range            | VES                    |
-|-----------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-| Morphology                                    | ah:Morphology                  |                                  |                  |                        |
-| Typometry                                     | ah:Typometry                   |                                  |                  |                        |
-| Chipping                                      | ah:Chipping                    |                                  |                  |                        |
-| Shape                                         | ah:shape                       | crm: E24_Physical_Man-Made_Thing | anyURI           | AH-Shape               |
-| Variant                                       | ah:variant                     | crm: E24_Physical_Man-Made_Thing | anyURI           | AH-Variant             |
-| Point                                         | ah:point                       | ah:Morphology                    | anyURI           | AH-Point               |
-| Body                                          | ah:body                        | ah:Morphology                    | anyURI           | AH-Body                |
-| Base                                          | ah:base                        | ah:Morphology                    | anyURI           | AH-Base                |
-| Chipping-mode                                 | ah:mode                        | ah:Chipping                      | anyURI           | AH-ChippingMode        |
-| Chipping-amplitude                            | ah:amplitude                   | ah:Chipping                      | Boolean          |    |
-| Chipping-direction                            | ah:direction                   | ah:Chipping                      | anyURI           | AH-ChippingDirection   |
-| Chipping-orientation                          | ah:orientation                 | ah:Chipping                      | Boolean          |  |
-| Chipping-delineation                          | ah:dileneation                 | ah:Chipping                      | anyURI           | AH-ChippingDelineation |
-| Chipping-location-Side                        | ah:chippinglocation-Side       | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
-| Chipping-Location-Transversal                 | ah:chippingLocation-Transveral | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
-| Chipping-Shape                                | ah:chippingShape               | ah:Chipping                      | anyURI           | AH-ChippingShape       |
-| The arrowhead was found in the GPSCoordinates | ah:foundInCoordinates          | crm:E24_Physical_Man-Made_Thing  | geo:SpatialThing |                        |
-| The arrowhead has a Morphology                | ah:hasMorphology               | crm:E24_Physical_Man-Made_Thing  | ah:Morphology    |                        |
-| The arrowhead has a typometry                 | ah:hasTypometry                | crm:E24_Physical_Man-Made_Thing  | ah:Typometry     |                        |
-| The arrowhead has a Chipping                  | ah:hasChipping                 | crm:E24_Physical_Man-Made_Thing  | ah:Chipping      |
+| Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
+|------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
+| Morphology                                           | ah:Morphology                  |                                  |                  |                        |
+| Typometry                                            | ah:Typometry                   |                                  |                  |                        |
+| Chipping                                             | ah:Chipping                    |                                  |                  |                        |
+| Shape                                                | ah:shape                       | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Shape               |
+| Variant                                              | ah:variant                     | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Variant             |
+| Point (Elongated=True;Short=False)                   | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
+| Body                                                 | ah:body                        | ah:Morphology                    | xsd:anyURI       | AH-Body                |
+| Base                                                 | ah:base                        | ah:Morphology                    | xsd:anyURI       | AH-Base                |
+| Chipping-mode                                        | ah:mode                        | ah:Chipping                      | xsd:anyURI       | AH-ChippingMode        |
+| Chipping-amplitude (Marginal=True;Deep=False)        | ah:amplitude                   | ah:Chipping                      | xsd:boolean      |                        |
+| Chipping-direction                                   | ah:direction                   | ah:Chipping                      | xsd:anyURI       | AH-ChippingDirection   |
+| Chipping-orientation (Lateral=True;Transverse=False) | ah:orientation                 | ah:Chipping                      | xsd:boolean      |                        |
+| Chipping-delineation                                 | ah:dileneation                 | ah:Chipping                      | xsd:anyURI       | AH-ChippingDelineation |
+| Chipping-location-Side                               | ah:chippinglocation-Side       | ah:Chipping                      | xsd:anyURI       | AH-ChippingLocation    |
+| Chipping-Location-Transversal                        | ah:chippingLocation-Transveral | ah:Chipping                      | xsd:anyURI       | AH-ChippingLocation    |
+| Chipping-Shape                                       | ah:chippingShape               | ah:Chipping                      | xsd:anyURI       | AH-ChippingShape       |
+| The arrowhead was found in the GPSCoordinates        | ah:foundInCoordinates          | crm:E24_Physical_Man-Made_Thing  | geo:SpatialThing |                        |
+| The arrowhead has a Morphology                       | ah:hasMorphology               | crm:E24_Physical_Man-Made_Thing  | ah:Morphology    |                        |
+| The arrowhead has a typometry                        | ah:hasTypometry                | crm:E24_Physical_Man-Made_Thing  | ah:Typometry     |                        |
+| The arrowhead has a Chipping                         | ah:hasChipping                 | crm:E24_Physical_Man-Made_Thing  | ah:Chipping      | |
+
 
