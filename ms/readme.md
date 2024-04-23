@@ -24,12 +24,12 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Shape                                         | ah:shape                       | crm: E24_Physical_Man-Made_Thing | anyURI           | AH-Shape               |
 | Variant                                       | ah:variant                     | crm: E24_Physical_Man-Made_Thing | anyURI           | AH-Variant             |
 | Point                                         | ah:point                       | ah:Morphology                    | anyURI           | AH-Point               |
-| Body                                          | ah:body                        | ah:Morphology                    | Boolean          |                        |
+| Body                                          | ah:body                        | ah:Morphology                    | anyURI           | AH-Body                |
 | Base                                          | ah:base                        | ah:Morphology                    | anyURI           | AH-Base                |
 | Chipping-mode                                 | ah:mode                        | ah:Chipping                      | anyURI           | AH-ChippingMode        |
-| Chipping-amplitude                            | ah:amplitude                   | ah:Chipping                      | Boolean           |    |
+| Chipping-amplitude                            | ah:amplitude                   | ah:Chipping                      | Boolean          |    |
 | Chipping-direction                            | ah:direction                   | ah:Chipping                      | anyURI           | AH-ChippingDirection   |
-| Chipping-orientation                          | ah:orientation                 | ah:Chipping                      | Boolean           |  |
+| Chipping-orientation                          | ah:orientation                 | ah:Chipping                      | Boolean          |  |
 | Chipping-delineation                          | ah:dileneation                 | ah:Chipping                      | anyURI           | AH-ChippingDelineation |
 | Chipping-location-Side                        | ah:chippinglocation-Side       | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
 | Chipping-Location-Transversal                 | ah:chippingLocation-Transveral | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
