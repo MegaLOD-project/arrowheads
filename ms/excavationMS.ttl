@@ -62,6 +62,21 @@ excav:Archaeologist
 #===========  #------<>-------------------------------<>-----#	===========#
               #======<>===============================<>=====#
 
+     
+#>-----------------------------------------<#
+#>           Data Properties             <#
+#>-----------------------------------------<#
+excav:bc
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
+	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
+	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
+	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
+        rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
+        rdfs:domain time:Instant;
+	rdfs:range xsd:boolean;
+	vann:usageNote "Non-mandatory Property - 0..1"@en.
+     
 #>-----------------------------------------<#
 #>           Object Properties             <#
 #>-----------------------------------------<#
