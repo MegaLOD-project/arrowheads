@@ -139,6 +139,7 @@ ah:variant
 ah:point
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Definition of the tip of the arrowhead. A good practice is to use the controlled vocabulary AH-Point."@en;
+	  rdfs:comment "Definição da ponta da ponta de seta. Uma boa prática é usar o vocabulário controlado AH-Point."@pt;
 	rdfs:isDefinedBy <http://purl.org/dc/terms/>;
 	rdfs:label "Arrowhead-Morphology - point"@en;
         rdfs:domain ah:Morphology;
@@ -147,25 +148,29 @@ ah:point
 
 ah:body
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "Does the arrowhead presents symmetry? Symmetric=True, otherwoise=False"@en;
+        rdfs:comment "THis property is used to define the simmetry of the body of the arrowhead presents. Use the controlled vocabulary AH-Body."@en;
+	  rdfs:comment "Esta propriedade define a simetria da base da ponta de seta.Usar o vocabulário controlado AH-Body"@pt;
 	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
-	rdfs:label "Arrowhead-Morphology - body: symmetry=1; non-symmetry=0."@en;
+	rdfs:label "Arrowhead-Morphology - body. A good pratice is to use the Controlled Vocabulary AH-Body. "@en;
+	rdfs:label "Arrowhead-Morphology - body. Uma boa prática é usar o vocabulário controlado AH-Body. "@pt;
         rdfs:domain ah:Morphology;
-	rdfs:range xsd:boolean;
+	rdfs:range ah-vocab:AH-Body;
 	vann:usageNote "Non-mandatory Property - 0..1"@en.
 
 ah:base
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This properties defines the yype of the base of the arrowhead. A good pratice is to use the controlled vocabulary AH-Base."@en;
+	rdfs:comment "This properties defines the base of the arrowhead. A good pratice is to use the controlled vocabulary AH-Base."@en;
+	  rdfs:comment "Esta propriedade é usada para categorizar a base da ponta de seta. Usar o vocabulário controlado AH-Base."@pt;
 	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ah/>;
-	rdfs:label "ArrowHead - Morphology - Base"@en;
+	rdfs:label "ArrowHead - Morphology - Base. A good pratice is to use the Controlled Vocabulary AH-Base. "@en;
+	rdfs:label "ArrowHead - Morphology - Base. Uma boa prática é usar o vocabulário controlado AH-Base. "@pt;
 	rdfs:domain ah:Morphology;
 	rdfs:range ah-vocab:AH-Base;
 	vann:usageNote "Optional Property - 0..1"@en.
 
   ah:mode
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "Type of retouching incidence, defines the angle formed by the retouching line and the chipping surface. A good pratice is to use the COntrolled Vocabulary AH-ChippingMode."@en;
+  	rdfs:comment "Type of retouching incidence, defines the angle formed by the retouching line and the chipping surface. A good pratice is to use the Controlled Vocabulary AH-ChippingMode."@en;
         rdfs:comment "Tipo de incidência do retoque, define o ângulo formado pela linha de retoque e a superfície de lascagem. Usar o vocabulário controlado AH-Mode."@pt;
   	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
   	rdfs:label "Arrowhead-Chipping-mode"@en;
@@ -205,7 +210,7 @@ ah:orientation
 
 ah:delineation
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The retouching gives the margins a shape.. A good pratice is to use the COntrolled Vocabulary AH-ChippingDelineation."@en;
+	rdfs:comment "The retouching gives the margins a shape.. A good pratice is to use the Controlled Vocabulary AH-ChippingDelineation."@en;
  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingOrientation."@pt;
 	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
 	rdfs:label "Arrowhead-Chipping-delineation"@en;
@@ -225,8 +230,8 @@ ah:chippinglocation-Side
 
 ah:chippinglocation-Transversal
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position.. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
-	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana.. Usar o vocabulário controlado AH-ChippingLocation."@pt;
+  	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
+	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
   	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
   	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
 	rdfs:domain ah:Chipping;
@@ -235,8 +240,8 @@ ah:chippinglocation-Transversal
 
 ah:chippingShape
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "Line defined by the edge.. A good pratice is to use the COntrolled Vocabulary AH-ChippingShape."@en;
-	rdfs:comment "Linha definida pelo bordo..Usar o vocabulário controlado AH-ChippingShape."@pt;
+	rdfs:comment "Line defined by the edge. A good pratice is to use the Controlled Vocabulary AH-ChippingShape."@en;
+	rdfs:comment "Linha definida pelo bordo. Usar o vocabulário controlado AH-ChippingShape."@pt;
 	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
 	rdfs:label "Arrowhead-Chipping-shape"@en;
   	rdfs:domain ah:Chipping;
