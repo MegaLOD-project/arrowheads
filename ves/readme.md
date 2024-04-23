@@ -1,7 +1,7 @@
 # Arrowhead Project - Vocabulary Encondig Schemes
-These Vocabulary Encoding Schemes are to be used with the metadata application profile of the arrowhead project. 
-The following table presents these VES. 
+The following table presents the Vocabulary Encoding Schemes to be used with the metadata application profile of the arrowhead project. 
 
+URI: http://purl.org/ah/ves/
 
 | VES                    | Valores (PT)                                                         | Values (EN)                                                               |
 |------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -15,4 +15,4 @@ The following table presents these VES.
 | ah-vocab:AH-ChippingLocation    | Distal,Mediano,Proximal                                              | Distal, Median, Proximal                                                  |
 | ah-vocab:AH-ChippingShape       | Retilínea, Convexa, Côncava, Sinuosa, não aplicável (n/a)            | Straight, Convex, Concave, Sinuous, not applicable (n/a)                  |
 
-URI: http://purl.org/ah/ves/
+
