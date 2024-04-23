@@ -27,9 +27,9 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Body                                          | ah:body                        | ah:Morphology                    | Boolean          |                        |
 | Base                                          | ah:base                        | ah:Morphology                    | anyURI           | AH-Base                |
 | Chipping-mode                                 | ah:mode                        | ah:Chipping                      | anyURI           | AH-ChippingMode        |
-| Chipping-amplitude                            | ah:amplitude                   | ah:Chipping                      | anyURI           | AH-ChippingAmplitude   |
+| Chipping-amplitude                            | ah:amplitude                   | ah:Chipping                      | Boolean           |    |
 | Chipping-direction                            | ah:direction                   | ah:Chipping                      | anyURI           | AH-ChippingDirection   |
-| Chipping-orientation                          | ah:orientation                 | ah:Chipping                      | anyURI           | AH-ChippingOrientation |
+| Chipping-orientation                          | ah:orientation                 | ah:Chipping                      | Boolean           |  |
 | Chipping-delineation                          | ah:dileneation                 | ah:Chipping                      | anyURI           | AH-ChippingDelineation |
 | Chipping-location-Side                        | ah:chippinglocation-Side       | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
 | Chipping-Location-Transversal                 | ah:chippingLocation-Transveral | ah:Chipping                      | anyURI           | AH-ChippingLocation    |
