@@ -22,19 +22,19 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Morphology                                           | ah:Morphology                  |                                  |                  |                        |
 | Typometry                                            | ah:Typometry                   |                                  |                  |                        |
 | Chipping                                             | ah:Chipping                    |                                  |                  |                        |
-| Shape                                                | ah:shape                       | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Shape               |
-| Variant                                              | ah:variant                     | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Variant             |
+| Shape                                                | ah:shape                       | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | ah-shape               |
+| Variant                                              | ah:variant                     | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | ah-variant             |
 | Point (Sharp=True;Fractured=False)                                               | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
 | Body (Symmetrical=True; Non-symmetrical=False)                                                | ah:body                        | ah:Morphology                    | xsd:boolean      |                        |
-| Base                                                 | ah:base                        | ah:Morphology                    | xsd:anyURI       | AH-Base                |
-| Chipping-mode                                        | ah:mode                        | ah:Chipping                      | xsd:anyURI       | AH-ChippingMode        |
+| Base                                                 | ah:base                        | ah:Morphology                    | xsd:anyURI       | ah-base                |
+| Chipping-mode                                        | ah:mode                        | ah:Chipping                      | xsd:anyURI       | ah-chippingMode        |
 | Chipping-amplitude (Marginal=True;Deep=False)        | ah:amplitude                   | ah:Chipping                      | xsd:boolean      |                        |
-| Chipping-direction                                   | ah:direction                   | ah:Chipping                      | xsd:anyURI       | AH-ChippingDirection   |
-| Chipping-orientation (Lateral=True;Transverse=False) | ah:orientation                 | ah:Chipping                      | xsd:boolean      |                        |
-| Chipping-delineation                                 | ah:dileneation                 | ah:Chipping                      | xsd:anyURI       | AH-ChippingDelineation |
-| Chipping-location-Side                               | ah:chippinglocation-Side       | ah:Chipping                      | xsd:anyURI       | AH-ChippingLocation    |
-| Chipping-Location-Transversal                        | ah:chippingLocation-Transveral | ah:Chipping                      | xsd:anyURI       | AH-ChippingLocation    |
-| Chipping-Shape                                       | ah:chippingShape               | ah:Chipping                      | xsd:anyURI       | AH-ChippingShape       |
+| Chipping-direction                                   | ah:direction                   | ah:Chipping                      | xsd:anyURI       | ah-chippingDirection   |
+| Chipping-orientation (Lateral=True;Transverse=False) | ah:orientation                 | ah:Chipping                      | xsd:boolean      |                       |
+| Chipping-delineation                                 | ah:dileneation                 | ah:Chipping                      | xsd:anyURI       | ah-chippingDelineation |
+| Chipping-location-Side                               | ah:chippinglocation-Side       | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
+| Chipping-Location-Transversal                        | ah:chippingLocation-Transveral | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
+| Chipping-Shape                                       | ah:chippingShape               | ah:Chipping                      | xsd:anyURI       | ah-chippingShape       |
 | The arrowhead was found in the GPSCoordinates        | ah:foundInCoordinates          | crm:E24_Physical_Man-Made_Thing  | geo:SpatialThing |                        |
 | The arrowhead has a Morphology                       | ah:hasMorphology               | crm:E24_Physical_Man-Made_Thing  | ah:Morphology    |                        |
 | The arrowhead has a typometry                        | ah:hasTypometry                | crm:E24_Physical_Man-Made_Thing  | ah:Typometry     |                        |
