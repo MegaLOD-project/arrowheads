@@ -1,5 +1,5 @@
 # Arrowhead Project Metadata Schemes
-These two metadata schemes were created to be used with the Arrowhead Metadatata Application Profile (see http://purl.org/ah/map/)
+These two metadata schemes were created to be used with the Arrowhead Metadata Application Profile (see https://purl.org/ah/map/)
 
 # Excavation Metadata Scheme
 | Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
@@ -16,7 +16,7 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Item found In a Excavation              | ah:foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
 
 
-# Arroweahd Meatadata Scheme
+# Arroweahd Metadata Scheme
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
 | Morphology                                           | ah:Morphology                  |                                  |                  |                        |
