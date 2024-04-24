@@ -24,8 +24,8 @@ These two metadata schemes were created to be used with the Arrowhead Metadatata
 | Chipping                                             | ah:Chipping                    |                                  |                  |                        |
 | Shape                                                | ah:shape                       | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Shape               |
 | Variant                                              | ah:variant                     | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | AH-Variant             |
-| Point (Elongated=True;Short=False)                   | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
-| Body                                                 | ah:body                        | ah:Morphology                    | xsd:anyURI       | AH-Body                |
+| Point (Sharp=True;Fractured=False)                                               | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
+| Body (Symmetrical=True; Non-symmetrical=False)                                                | ah:body                        | ah:Morphology                    | xsd:boolean      |                        |
 | Base                                                 | ah:base                        | ah:Morphology                    | xsd:anyURI       | AH-Base                |
 | Chipping-mode                                        | ah:mode                        | ah:Chipping                      | xsd:anyURI       | AH-ChippingMode        |
 | Chipping-amplitude (Marginal=True;Deep=False)        | ah:amplitude                   | ah:Chipping                      | xsd:boolean      |                        |
