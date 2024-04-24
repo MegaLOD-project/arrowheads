@@ -12,7 +12,8 @@
 | crmarchaeo | http://www.cidoc-crm.org/extensions/crmarchaeo/       |
 | edm        | http://www.europeana.eu/schemas/edm                   |
 | time       | http://www.w3.org/2006/time#                          |
-
+| ah         | https://purl.org/ah/ms/ah/                            |
+| excav      | https://purl.org/ah/ms/excavation/                    |
 
 # Metadata Application Profile
 
