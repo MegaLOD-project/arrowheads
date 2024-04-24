@@ -2,6 +2,8 @@
 These two metadata schemes were created to be used with the Arrowhead Metadata Application Profile (see https://purl.org/ah/map/)
 
 # Excavation Metadata Scheme
+URI: https//purl.org/ah/ms/exacavation/ 
+
 | Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
 |-----------------------------------------|-------------------------|------------------------------------------|------------------------------------------|
 | Archaeologist                           | excav:Archaeologist     |                                          |                                          |
@@ -17,6 +19,8 @@ These two metadata schemes were created to be used with the Arrowhead Metadata A
 
 
 # Arroweahd Metadata Scheme
+URI: https//purl.org/ah/ms/ah/
+
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
 | Morphology                                           | ah:Morphology                  |                                  |                  |                        |
