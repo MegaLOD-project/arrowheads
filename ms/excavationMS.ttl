@@ -140,8 +140,18 @@ excav:foundInAContext
   rdfs:label "The Encounter Event - an item found in a specific Context"@en;
   rdfs:domain crmsci:S19_Encounter_Event;
   rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
-  vann:usageNote "Mandatory Property - 1..1"@en .
+  vann:usageNote "Mandatory Property - 0..1"@en .
+     
+excav:foundInAExcavation
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "Points to the Excavation where the item was found."@en;
+  rdfs:label "The Encounter Event - an item found in a specific Excavation"@en;
+  rdfs:domain crmsci:S19_Encounter_Event;
+  rdfs:range crmarchaeo:A9_Archaeological_Excavation;
+  vann:usageNote "Mandatory Property - 0..1"@en .
 
+
+     
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
 #>---------------------------------------------------------<#
