@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://purl.org/ah/ves/kos/ah-variant> a skos:ConceptScheme, prov:Entity ;
+    skos:prefLabel "Arrowhead variant"@en;
+    skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/flatt>,
+        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/raised>,
+        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/thick> ;
+    dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
+    dc:creator "María Luisa Díez Platas, (UNIR)" ;
+    dc:contributor "Américo Araújo (Universidade de Coimbra) ";
+    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa);
+    dc:date "2024-04-25"^^xsd:date ;
+    dc:title "Kos about arrowhead shape"@en.
+
+
+<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/flatt> a skos:Concept ;
+    skos:prefLabel "Flatt"@en ;
+    skos:prefLabel "Liso"@pt ;
+    skos:notation "flatt" ;
+    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant> .
+
+<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/raised> a skos:Concept ;
+    skos:prefLabel "Raised"@en ;
+    skos:prefLabel "Elevado"@pt ;
+    skos:notation "raised" ;
+    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant .
+
+
+<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/thick>  a skos:Concept ;
+    skos:prefLabel "Thick"@en ;
+    skos:prefLabel "Espesso"@pt ;
+    skos:notation "thick" ;
+    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant> .
+
+ 

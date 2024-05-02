@@ -8,7 +8,7 @@
 
 <https://purl.org/ah/ves/kos/ah-shape> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead shape"@en;
-    skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/os/ah-shape/triangle>,
+    skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/triangle>,
         <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/losangular>,
         <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/pedunculated> ;
     dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
