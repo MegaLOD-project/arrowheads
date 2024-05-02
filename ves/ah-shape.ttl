@@ -19,20 +19,20 @@
     dc:title "Kos about arrowhead shape"@en.
 
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/triangle> a skos:Concept ;
+<https://purl.org/ah/ves/kos/ah-shape/triangle> a skos:Concept ;
     skos:prefLabel "Triangle"@en ;
     skos:prefLabel "Triangular"@pt ;
     skos:notation "triangle" ;
     skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape> .
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/losangular> a skos:Concept ;
+<https://purl.org/ah/ves/kos/ah-shape/losangular> a skos:Concept ;
     skos:prefLabel "Losangular"@en ;
     skos:prefLabel "Losangular"@pt ;
     skos:notation "losangular" ;
     skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape> .
 
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-shape/pedunculated> a skos:Concept ;
+<https://purl.org/ah/ves/kos/ah-shape/pedunculated> a skos:Concept ;
     skos:prefLabel "Pedunculated"@en ;
     skos:prefLabel "Pedunculado"@pt ;
     skos:notation "pedunculated" ;
