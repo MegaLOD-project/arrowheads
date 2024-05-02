@@ -16,7 +16,7 @@
     dc:contributor "Américo Araújo (Universidade de Coimbra) ";
     dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa);
     dc:date "2024-04-25"^^xsd:date ;
-    dc:title "Kos about arrowhead shape"@en.
+    dc:title "Kos about arrowhead variant"@en.
 
 
 <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/flatt> a skos:Concept ;
