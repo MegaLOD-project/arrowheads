@@ -10,9 +10,7 @@
     skos:prefLabel "Arrowhead chipping mode"@en;
     skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/plane>,
         <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/parallel>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/sub-parallel>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/pedunculated>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/triangular>;
+        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/sub-parallel>;
     dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
     dc:creator "María Luisa Díez Platas, (UNIR)" ;
     dc:contributor "Américo Araújo (Universidade de Coimbra) ";
