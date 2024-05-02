@@ -40,16 +40,4 @@
     skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode> .
 
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/pedunculated> a skos:Concept ;
-    skos:prefLabel "Pedunculated"@en ;
-    skos:prefLabel "Pedunculado"@pt ;
-    skos:notation "pedunculated" ;
-    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode> .
-
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode/triangular> a skos:Concept ;
-    skos:prefLabel "Triangular"@en ;
-    skos:prefLabel "Triangular"@pt ;
-    skos:notation "triangular" ;
-    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingMode> .
-
 
