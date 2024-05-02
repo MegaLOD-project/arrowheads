@@ -10,12 +10,12 @@ URI: https//purl.org/ah/ms/exacavation/
 | Before (True) or After (False) christ   | excav:bc                | time:Instant                             | xsd:boolean                              |
 | has GPS Coordinates                     | excav:hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
 | has a person in charge                  | ah:hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
-| has context                             | ah:hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
-| has Stratigraphic Unit                  | ah:hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| hasTimeLine                             | ah:hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
-| Item found In a StratigraphicVolumeUnit | ah:foundInSVU           | crmsci:S19_Encounter_Event               | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| Item found In a Context                 | ah:foundInAContext      | crmsci:S19_Encounter_Event               | crmarchaeo:A1_Excavation_Processing_Unit |
-| Item found In a Excavation              | ah:foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
+| has context                             | excav:hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
+| has Stratigraphic Unit                  | excav:hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
+| hasTimeLine                             | excav:hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
+| Item found In a StratigraphicVolumeUnit | excav:foundInSVU           | crmsci:S19_Encounter_Event               | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
+| Item found In a Context                 | excav:foundInAContext      | crmsci:S19_Encounter_Event               | crmarchaeo:A1_Excavation_Processing_Unit |
+| Item found In a Excavation              | excav:foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
 
 
 # Arroweahd Metadata Scheme
