@@ -9,7 +9,7 @@ URI: https//purl.org/ah/ms/exacavation/
 | Archaeologist                           | excav:Archaeologist     |                                          |                                          |
 | Before (True) or After (False) christ   | excav:bc                | time:Instant                             | xsd:boolean                              |
 | has GPS Coordinates                     | excav:hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
-| has a person in charge                  | ah:hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
+| has a person in charge                  | excav:hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
 | has context                             | excav:hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
 | has Stratigraphic Unit                  | excav:hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
 | hasTimeLine                             | excav:hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
