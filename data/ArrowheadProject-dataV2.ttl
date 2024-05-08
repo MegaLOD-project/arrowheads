@@ -1,4 +1,4 @@
-@prefix ah: https://purl.org/ah/ms/ah/> .
+@prefix ah: <https://purl.org/ah/ms/ah/> .
 @prefix ah-vocab:<https://www.purl.com/ah/ves/>.
 @prefix excav:<https://www.purl.com/ah/ms/excavation/>.
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -34,14 +34,14 @@
 
 <https://www.purl.com/ah/ms/excavation/resource/Castanheiro_do_Vento> a dbo:Place;
 	dbo:district <https://www.purl.com/ah/ms/excavation/resource/Guarda>;
-	dbo:Parish <https://www.purl.com/ah/ms/excavation/resource/Horta do Douro>;
+	dbo:Parish <https://www.purl.com/ah/ms/excavation/resource/Horta_do_Douro>;
 	dbo:informationName "Castanheiro do Vento";
 	excav:hasGPSCoordinates <https://www.purl.com/ah/ms/excavation/resource/Coordinates/1>
 
 <https://www.purl.com/ah/ms/excavation/resource/Guarda> a dbo:District;
 	dbo:informationName "Guarda".
 
-<https://www.purl.com/ah/ms/excavation/resource/Horta do Douro> a dbo:Parish;
+<https://www.purl.com/ah/ms/excavation/resource/Horta_do_Douro> a dbo:Parish;
 	dbo:informationName "Horta do Douro".
 
 <https://www.purl.com/ah/ms/excavation/resource/Coordinates/1> a geo:SpatialThing;
@@ -51,7 +51,7 @@
 <https://www.purl.com/ah/ms/excavation/resource/Archaeologist_1> a excav:Archaeologist;
 	foaf:account <http://www.orcid.org/0000-0001-5289-7583>;
 	foaf:name "Joao Muralha"@pt;
-	foaf:mbox <jccardoso@fcsh.unl.pt>.
+	foaf:mbox <mailto:jccardoso@fcsh.unl.pt>.
 
 <https://www.purl.com/ah/ms/excavation/resource/Context_95_26> a crmarchaeo:A1_Excavation_Processing_Unit;
 	dct:identifier "95,26";
@@ -130,11 +130,11 @@
 <https://www.purl.com/ah/ms/excavation/resource/Instant_1> a time:Instant;
 	time:inXSDYear "2800";
 	time:inXSDYear "2900";
-	excav:bc 'true'.
+	excav:bc "true".
 
 <https://www.purl.com/ah/ms/excavation/resource/Instant_2> a time:Instant;
 	time:inXSDYear "1500";
-	excav:bc 'true'.
+	excav:bc "true".
 
 
 <https://www.purl.com/ah/ms/excavation/resource/EncounterEvent_1> a crmsci:S19_Encounter_Event;
