@@ -6,36 +6,33 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/ves/kos/ah-chippingDelineation> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/ah/kos/ah-chippingDelineation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping delineation"@en;
     skos:hasTopConcept <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>,
-        <https://purl.org/ah/ves/kos/ah-chippingDelineation/composite>,
-        <https://purl.org/ah/ves/kos/ah-chippingDelineation/denticulated>;
-    dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
-    dc:creator "María Luisa Díez Platas, (UNIR)" ;
-    dc:contributor "Américo Araújo (Universidade de Coimbra) ";
-    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa);
+        <https://purl.org/ah/kos/ah-chippingDelineation/composite>,
+        <https://purl.org/ah/kos/ah-chippingDelineation/denticulated>;
+    dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
+    dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
+    dc:contributor "Américo Araújo (Universidade de Coimbra,Portugal) ";
+    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal);
     dc:date "2024-04-25"^^xsd:date ;
-    dc:title "Kos about arrowhead chipping delineation"@en.
+    dc:title "KOS about arrowhead chipping delineation"@en.
 
 
-<https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingDelineation/continuous> a skos:Concept ;
     skos:prefLabel "Continuous"@en ;
     skos:prefLabel "Contínuo"@pt ;
     skos:notation "continuous" ;
-    skos:inScheme <https://purl.org/ah/ves/kos/ah-chippingDelineation/> .
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingDelineation/> .
 
-<https://purl.org/ah/ves/kos/ah-chippingDelineation/composite> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingDelineation/composite> a skos:Concept ;
     skos:prefLabel "Composite"@en ;
     skos:prefLabel "Composto"@pt ;
     skos:notation "composite" ;
-    skos:inScheme <https://purl.org/ah/ves/kos/ah-chippingDelineation/> .
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingDelineation/> .
 
-<https://purl.org/ah/ves/kos/ah-chippingDelineation/denticulated> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingDelineation/denticulated> a skos:Concept ;
     skos:prefLabel "Denticulated"@en ;
     skos:prefLabel "Denticulado"@pt ;
     skos:notation "denticulated" ;
-    skos:inScheme <https://purl.org/ah/ves/kos/ah-chippingDelineation/> .
-
-
-
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingDelineation/> .
