@@ -6,36 +6,33 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/ves/kos/ah-chippingLocation> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/ah/kos/ah-chippingLocation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping location"@en;
-    skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/distal>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/median>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/proximal>;
-    dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
-    dc:creator "María Luisa Díez Platas, (UNIR)" ;
-    dc:contributor "Américo Araújo (Universidade de Coimbra) ";
-    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa);
+    skos:hasTopConcept <https://purl.org/ah/kos/ah-chippingLocation/distal>,
+        <https://purl.org/ah/kos/ah-chippingLocation/median>,
+        <https://purl.org/ah/kos/ah-chippingLocation/proximal>;
+    dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
+    dc:creator "María Luisa Díez Platas, (UNIR,Spain)" ;
+    dc:contributor "Américo Araújo (Universidade de Coimbra, Portugal) ";
+    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal);
     dc:date "2024-04-25"^^xsd:date ;
-    dc:title "Kos about arrowhead chipping location"@en.
+    dc:title "KOS about arrowhead chipping location"@en.
 
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/distal> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingLocation/distal> a skos:Concept ;
     skos:prefLabel "Distal"@en ;
     skos:prefLabel "Distal"@pt ;
     skos:notation "distal" ;
-    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation> .
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingLocation> .
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/median> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingLocation/median> a skos:Concept ;
     skos:prefLabel "Median"@en ;
     skos:prefLabel "Mediana"@pt ;
     skos:notation "median" ;
-    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation> .
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingLocation> .
 
-<https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation/proximal> a skos:Concept ;
+<https://purl.org/ah/kos/ah-chippingLocation/proximal> a skos:Concept ;
     skos:prefLabel "Proximal"@en ;
     skos:prefLabel "Proximal"@pt ;
     skos:notation "proximal" ;
-    skos:inScheme <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-chippingLocation> .
-
-
-
+    skos:inScheme <https://purl.org/ah/kos/ah-chippingLocation> .
