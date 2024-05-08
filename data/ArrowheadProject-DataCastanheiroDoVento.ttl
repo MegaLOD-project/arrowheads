@@ -1,0 +1,395 @@
+@prefix ah: <https://purl.org/ah/ms/ah/> .
+@prefix ah-vocab:<https://purl.org/ah/ves/>.
+@prefix excav:<https://purl.org/ah/ms/excavation/>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix voaf: <http://labs.mondeca.com/vocab/voaf#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dbo:<http://dbpedia.org/ontology/> .
+@prefix time:<http://www.w3.org/2006/time#> .
+@prefix edm:<http://www.europeana.eu/schemas/edm> .
+@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/>
+@prefix crmsci:<https://cidoc-crm.org/extensions/crmsci/> .
+@prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
+@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+
+
+
+<https://purl.org/ah/ms/excavation/resource/Excavation_1>	a	crmarchaeo:A9_Archaeological_Excavation;
+			dct:identifier "CSTNVT";
+			dul:hasLocation <https://purl.org/ah/ms/excavation/resource/Castanheiro_do_Vento>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_95_26>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_98_45>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_100_44>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_104_45>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_106_45>;
+			excav:hasContext <https://purl.org/ah/ms/excavation/resource/Context_106_47>;
+				
+
+
+<https://purl.org/ah/ms/excavation/resource/Castanheiro_do_Vento> a dbo:Place;
+	dbo:district <https://purl.org/ah/ms/excavation/resource/Guarda>;
+	dbo:Parish <https://purl.org/ah/ms/excavation/resource/Horta do Douro>;
+	dbo:informationName "Castanheiro do Vento";
+	excav:hasGPSCoordinates <https://purl.org/ah/ms/excavation/resource/Coordinates/1>
+
+<https://purl.org/ah/ms/excavation/resource/Guarda> a dbo:District;
+	dbo:informationName "Guarda".
+
+<https://purl.org/ah/ms/excavation/resource/Horta do Douro> a dbo:Parish;
+	dbo:informationName "Horta do Douro".
+
+<https://purl.org/ah/ms/excavation/resource/Coordinates/1> a geo:SpatialThing;
+	geo:lat "41.063611";
+	geo:long "7.321667".
+
+<https://purl.org/ah/ms/excavation/resource/Archaeologist_1> a excav:Archaeologist;
+	foaf:account <http://www.orcid.org/0000-0001-5289-7583>;
+	foaf:name "Joao Muralha"@pt;
+	foaf:mbox <jccardoso@fcsh.unl.pt>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_95_26> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "95,26";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_3>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_98_45> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "98,45";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_72>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_100_44> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "100,44";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_77>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_104_45> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "104,45";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_23>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_106_45> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "106,45";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_80>.
+
+<https://purl.org/ah/ms/excavation/resource/Context_106_47> a crmarchaeo:A1_Excavation_Processing_Unit;
+	dct:identifier "106,47";
+	excav:hasSVU <https://purl.org/ah/ms/excavation/resource/SVU_2>.
+
+<https://purl.org/ah/ms/excavation/resource/SVU_3> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "3";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_1>;
+	dct:description "Grande Estrutura Circular 7".
+
+<https://purl.org/ah/ms/excavation/resource/SVU_72> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "72";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_2>;
+	dct:description "Estrutura Circular 7".
+
+<https://purl.org/ah/ms/excavation/resource/SVU_77> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "77";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_3>;
+	dct:description "Muro 5".
+
+<https://purl.org/ah/ms/excavation/resource/SVU_23> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "23";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_4>;
+	dct:description "Grande Estrutura Circular 7".
+
+<https://purl.org/ah/ms/excavation/resource/SVU_80> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "80";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_5>;
+	dct:description "Grande Estrutura Circular 7".
+
+<https://purl.org/ah/ms/excavation/resource/SVU_2> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+	dct:identifier "2";
+	excav:hasTimeLine <https://purl.org/ah/ms/excavation/resource/TemporalEntity_6>;
+	dct:description "Bastião L".
+
+<https://purl.org/ah/ms/excavation/resource/TemporalEntity_1> a time:TemporalEntity;
+	time:hasBeggining <https://purl.org/ah/ms/excavation/resource/Instant_1>;
+	time:hasEnd <https://purl.org/ah/ms/excavation/resource/Instant_2>.
+
+<https://purl.org/ah/ms/excavation/resource/TemporalEntity_2> a time:TemporalEntity;
+	time:hasBeggining <https://purl.org/ah/ms/excavation/resource/Instant_1>;
+	time:hasEnd <https://purl.org/ah/ms/excavation/resource/Instant_2>.
+
+<https://purl.org/ah/ms/excavation/resource/TemporalEntity_3> a time:TemporalEntity;
+	time:hasBeggining <https://purl.org/ah/ms/excavation/resource/Instant_1>;
+	time:hasEnd <https://purl.org/ah/ms/excavation/resource/Instant_2>.
+
+<https://purl.org/ah/ms/excavation/resource/TemporalEntity_4> a time:TemporalEntity;
+	time:hasBeggining <https://purl.org/ah/ms/excavation/resource/Instant_1>;
+	time:hasEnd <https://purl.org/ah/ms/excavation/resource/Instant_2>.
+
+<https://purl.org/ah/ms/excavation/resource/TemporalEntity_5> a time:TemporalEntity;
+	time:hasBeggining <https://purl.org/ah/ms/excavation/resource/Instant_1>;
+	time:hasEnd <https://purl.org/ah/ms/excavation/resource/Instant_2>.
+
+<https://purl.org/ah/ms/excavation/resource/Instant_1> a time:Instant;
+	time:inXSDYear "2800";
+	time:inXSDYear "2900";
+	excav:bc 'true'.
+
+<https://purl.org/ah/ms/excavation/resource/Instant_2> a time:Instant;
+	time:inXSDYear "1500";
+	excav:bc 'true'.
+
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_1> a crmsci:S19_Encounter_Event;
+	dct:date "15-7-19";
+	dbo:depth "726.66";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_1>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_80>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_106_45>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_2> a crmsci:S19_Encounter_Event;
+	dct:date "15-7-19";
+	dbo:depth "726.64";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_2>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_80>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_106_45>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_3> a crmsci:S19_Encounter_Event;
+	dct:date "29-7-08";
+	dbo:depth "727.85";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_3>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_3>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_95_26>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_4> a crmsci:S19_Encounter_Event;
+	dct:date "2005";
+	dbo:depth "726.74";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_4>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_2>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_106_47>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_5> a crmsci:S19_Encounter_Event;
+	dct:date "12-7-19";
+	dbo:depth "726.8";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_5>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_77>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_100_44>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+<https://purl.org/ah/ms/excavation/resource/EncounterEvent_6> a crmsci:S19_Encounter_Event;
+	dct:date "19-7-17";
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_6>
+	excav:foundInSVU <https://purl.org/ah/ms/excavation/resource/SVU_23>;
+	excav:foundInAContext <https://purl.org/ah/ms/excavation/resource/Context_104_45>;
+	excav:foundInAExcavation <https://purl.org/ah/ms/excavation/resource/Excavation_1>.
+
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_1> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "1";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "false";
+	crm:E55_Type "true";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/thick>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_1>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_1>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_1>;
+	crm:E57_Material "Quartz";
+	dbo:Annotation "Fraturada na ponta".
+
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_2> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "2";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "false";
+	crm:E55_Type "true";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/raised>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_2>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_2>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_2>;
+	crm:E57_Material "Quartz";
+	dbo:Annotation "Pequena fratura na ponta e na base".
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_3> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "3";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "false";
+	crm:E55_Type "true";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/raised>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_3>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_3>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_3>;
+	crm:E57_Material "Silex";
+	dbo:Annotation "Pequena fratura na base".
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_4> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "4";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "false";
+	crm:E55_Type "true";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/thick>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_4>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_4>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_4>;
+	crm:E57_Material "Quartz";
+	dbo:Annotation "Fratura na base".
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_5> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "5";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "false";
+	crm:E55_Type "alongado????";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/thick>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_5>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_5>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_5>;
+	crm:E57_Material "Silex";
+	dbo:Annotation "Fratura na ponta".
+
+<https://purl.org/ah/ms/ah/resource/ArrowHead_6> a  crm:E24_Physical_Man-Made_Thing ;
+	dct:identifier "6";
+	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
+	crm:E3_Condition_State "true";
+	crm:E55_Type "true";
+	ah:variant <https://purl.org/ah/ves/kos/ah-variant/thick>;
+	ah:hasTypometry <https://purl.org/ah/ms/ah/resource/Typometry_6>;
+	ah:hasMorphology <https://purl.org/ah/ms/ah/resource/Morphology_6>;
+	ah:hasChipping <https://purl.org/ah/ms/ah/resource/Chipping_6>;
+	crm:E57_Material "Silex".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_1> a ah:Typometry;
+	crm:E54_Dimension "25.6";
+	crm:E54_Dimension "14.6";
+	crm:E54_Dimension "5.3".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_2> a ah:Typometry;
+	crm:E54_Dimension "21.5";
+	crm:E54_Dimension "27.8";
+	crm:E54_Dimension "7".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_3> a ah:Typometry;
+	crm:E54_Dimension "33";
+	crm:E54_Dimension "22,7";
+	crm:E54_Dimension "4".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_4> a ah:Typometry;
+	crm:E54_Dimension "30";
+	crm:E54_Dimension "20.4";
+	crm:E54_Dimension "7".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_5> a ah:Typometry;
+	crm:E54_Dimension "25.6";
+	crm:E54_Dimension "20.8";
+	crm:E54_Dimension "5.3".
+
+<https://purl.org/ah/ms/ah/resource/Typometry_6> a ah:Typometry;
+	crm:E54_Dimension "40.5";
+	crm:E54_Dimension "23.2";
+	crm:E54_Dimension "6.1".
+
+<https://purl.org/ah/ms/ah/resource/Morphology_1> a ah:Morphology;
+	ah:body "false";
+	ah:base <https://purl.org/ah/ves/kos/ah-base/convex>.
+
+<https://purl.org/ah/ms/ah/resource/Morphology_2> a ah:Morphology;
+	ah:body "true";
+	ah:base <https://purl.org/ah/ves/kos/ah-base/concave>.
+
+
+<https://purl.org/ah/ms/ah/resource/Morphology_3> a ah:Morphology;
+	ah:point "true"
+	ah:body "true";
+	ah:base <https://purl.org/ah/ves/kos/ah-base/concave>.
+
+<https://purl.org/ah/ms/ah/resource/Morphology_4> a ah:Morphology;
+	ah:point "true"
+	ah:body "false".
+
+<https://purl.org/ah/ms/ah/resource/Morphology_5> a ah:Morphology;
+	ah:point "false"
+	ah:body "false";
+	ah:base <https://purl.org/ah/ves/kos/ah-base/concave>.
+
+
+<https://purl.org/ah/ms/ah/resource/Morphology_6> a ah:Morphology;
+	ah:point "true"
+	ah:body "true";
+	ah:base <https://purl.org/ah/ves/kos/ah-base/concave>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_1> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingShape <https://purl.org/ah/ves/kos/ah-chippingShape/sinuous>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_2> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingShape <https://purl.org/ah/ves/kos/ah-chippingShape/concave>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_3> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingShape <https://purl.org/ah/ves/kos/ah-chippingShape/concave>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_4> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_5> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingShape <https://purl.org/ah/ves/kos/ah-chippingShape/straight>.
+
+<https://purl.org/ah/ms/ah/resource/Chipping_6> a ah:Chipping;
+	ah:mode <https://purl.org/ah/ves/kos/ah-chippingMode/plane>;
+	ah:amplitude "false";
+	ah:direction <https://purl.org/ah/ves/kos/ah-chippingDirection/bifacial>;
+	ah:orientation "false";
+	ah:delineation <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Lateral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/distal>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/median>;
+	ah:chippingLocation-Transveral <https://purl.org/ah/ves/kos/ah-chippingLocation/proximal>;
+	ah:chippingShape <https://purl.org/ah/ves/kos/ah-chippingShape/straight>.
+
