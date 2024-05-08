@@ -6,11 +6,11 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/ves/kos/ah-base> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/ah/kos/ah-base> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead base"@en;
-    skos:hasTopConcept <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-base/straight>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-base/convex>,
-        <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-base/concave>,
+    skos:hasTopConcept <https://purl.org/ah/kos/ah-base/straight>,
+        <https://purl.org/ah/kos/ah-base/convex>,
+        <https://purl.org/ah/kos/ah-base/concave>,
         <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-base/pedunculated>,
         <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-base/triangular>;
     dc:creator "Mariana Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto)" ;
