@@ -222,7 +222,7 @@
 	dct:identifier "5";
 	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
 	crm:E3_Condition_State "false";
-	crm:E55_Type "alongado";
+	crm:E55_Type "alongado????";
 	ah:variant <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/thick>;
 	ah:hasTypometry <https://www.purl.com/ah/ms/ah/resource/Typometry_5>;
 	ah:hasMorphology <https://www.purl.com/ah/ms/ah/resource/Morphology_5>;
@@ -233,7 +233,7 @@
 <https://www.purl.com/ah/ms/ah/resource/ArrowHead_6> a  crm:E24_Physical_Man-Made_Thing ;
 	dct:identifier "6";
 	ah:shape <https://purl.org/ah/ves/kos/ah-shape/triangle>;
-	crm:E3_Condition_State "false";
+	crm:E3_Condition_State "true";
 	crm:E55_Type "true";
 	ah:variant <https://github.com/MegaLOD-project/arrowheads/tree/main/ves/kos/ah-variant/thick>;
 	ah:hasTypometry <https://www.purl.com/ah/ms/ah/resource/Typometry_6>;
@@ -241,9 +241,35 @@
 	ah:hasChipping <https://www.purl.com/ah/ms/ah/resource/Chipping_6>;
 	crm:E57_Material "Silex".
 
-<https://www.purl.com/ah/ms/ah/resource/Typometry_1>;
+<https://www.purl.com/ah/ms/ah/resource/Typometry_1> a ah:Typometry;
+	crm:E54_Dimension "25.6";
+	crm:E54_Dimension "14.6";
+	crm:E54_Dimension "5.3".
 
+<https://www.purl.com/ah/ms/ah/resource/Typometry_2> a ah:Typometry;
+	crm:E54_Dimension "21.5";
+	crm:E54_Dimension "27.8";
+	crm:E54_Dimension "7".
 
+<https://www.purl.com/ah/ms/ah/resource/Typometry_3> a ah:Typometry;
+	crm:E54_Dimension "33";
+	crm:E54_Dimension "22,7";
+	crm:E54_Dimension "4".
+
+<https://www.purl.com/ah/ms/ah/resource/Typometry_4> a ah:Typometry;
+	crm:E54_Dimension "30";
+	crm:E54_Dimension "20.4";
+	crm:E54_Dimension "7".
+
+<https://www.purl.com/ah/ms/ah/resource/Typometry_5> a ah:Typometry;
+	crm:E54_Dimension "25.6";
+	crm:E54_Dimension "20.8";
+	crm:E54_Dimension "5.3".
+
+<https://www.purl.com/ah/ms/ah/resource/Typometry_6> a ah:Typometry;
+	crm:E54_Dimension "40.5";
+	crm:E54_Dimension "23.2";
+	crm:E54_Dimension "6.1".
 
 <https://www.purl.com/ah/ms/ah/resource/Morphology_1>;
 
