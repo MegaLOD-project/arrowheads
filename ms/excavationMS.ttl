@@ -52,7 +52,7 @@ excav:Archaeologist
 	rdfs:isDefinedBy <http://www.purl.com/ah/ms/excavation/>;
 	rdfs:label "Location - has GPS Coordinates"@en;
   owl:EquivalentClass crm:E21_Person;
-  owl:SubClassOf foaf:Person;
+  rdfs:SubClassOf foaf:Person;
 	vann:usageNote "Non-mandatory Property - 0..1"@en .
 
 
