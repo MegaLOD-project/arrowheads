@@ -11,6 +11,7 @@
 | crmsci     | https://cidoc-crm.org/extensions/crmsci/              |
 | crmarchaeo | http://www.cidoc-crm.org/extensions/crmarchaeo/       |
 | edm        | http://www.europeana.eu/schemas/edm                   |
+| geo        | http://www.w3.org/2003/01/geo/wgs84_pos#              |
 | time       | http://www.w3.org/2006/time#                          |
 | ah         | https://purl.org/ah/ms/ah/                            |
 | excav      | https://purl.org/ah/ms/excavation/                    |
