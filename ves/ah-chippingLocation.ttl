@@ -14,7 +14,7 @@
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR,Spain)" ;
     dc:contributor "Américo Araújo (Universidade de Coimbra, Portugal) ";
-    dc:contributor "João Muralha" (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal);
+    dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal)";
     dc:date "2024-04-25"^^xsd:date ;
     dc:title "KOS about arrowhead chipping location"@en.
 
