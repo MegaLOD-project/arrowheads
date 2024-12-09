@@ -55,7 +55,7 @@
   vann:preferredNamespacePrefix "excav";
   vann:preferredNamespaceUri "http://www.purl.com/ah/ms/excavation/";
   rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
-  wdrs:describedby .
+  wdrs:describedby <http://www.yourdomain.com/arrowheads/documentation> .
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#

@@ -34,7 +34,8 @@
 	vann:preferredNamespacePrefix "ah";
 	vann:preferredNamespaceUri "http://www.purl.com/ah/mes/ah/";
 	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWheads MAP"@en;
-	wdrs:describedby .
+	wdrs:describedby <http://www.yourdomain.com/arrowheads/documentation> .
+
 
 
               #======<>===============================<>=====#
