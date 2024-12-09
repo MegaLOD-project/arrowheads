@@ -11,36 +11,48 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dbo:<http://dbpedia.org/ontology/> .
 @prefix time:<http://www.w3.org/2006/time#> .
-@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/>
+@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmsci:<https://cidoc-crm.org/extensions/crmsci/> .
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
 @prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://www.purl.com/ah/ms/excavation/> 	a voaf:metadataVoc, owl:Ontology;
+<http://www.purl.com/ah/ms/excavation/> 
+  a voaf:metadataVoc, owl:Ontology;
   voaf:specializes excav:;
   dct:title "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
-	dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
-	dct:creator [schema:affiliation <http://www.w3.org/data#W3C>;
-	  rdfs:seeAlso ;
-  	foaf:homepage ;
-  	foaf:name ] ,
-    [schema:affiliation [foaf:homepage ; foaf:name ];
-  	rdfs:seeAlso ;
-	  foaf:homepage ;
-	  foaf:name ] ,
-    [rdfs:seeAlso ; foaf:homepage ;
-    	foaf:name ;
-  foaf:maker[foaf:name "Mariana Curado Malta"; foaf:homepage http://fe.up.pt/];
-	dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
-	dct:modified "2024-"^^xsd:date;
-	vann:preferredNamespacePrefix "excav";
-	vann:preferredNamespaceUri "http://www.purl.com/ah/ms/excavation/";
-	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
-	wdrs:describedby .
+  dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
+  dct:creator [
+    schema:affiliation <http://www.w3.org/data#W3C>;
+    rdfs:seeAlso <http://www.w3.org/> ;
+    foaf:homepage <http://www.w3.org/> ;
+    foaf:name "W3C"
+  ] ,
+  [
+    schema:affiliation [
+      foaf:homepage <http://example.org/affiliation1> ;  # Replace with actual affiliation homepage (if available)
+      foaf:name "Affiliation 1"
+    ] ;
+    rdfs:seeAlso <http://example.org/related-resource> ;  # Replace with actual related resource (if available)
+    foaf:homepage <http://example.org/homepage1> ;        # Replace with actual creator homepage (if available)
+    foaf:name "Creator 1"
+  ] ,
+  [
+    rdfs:seeAlso <http://example.org/related-resource2> ;  # Replace with actual related resource (if available)
+    foaf:homepage <http://example.org/homepage2> ;        # Replace with actual creator homepage (if available)
+    foaf:name "Creator 2" ;
+    foaf:maker [
+      foaf:name "Mariana Curado Malta";
+      foaf:homepage <http://fe.up.pt/>;
+    ]
+  ] ;
+  dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
+  dct:modified "2024-"^^xsd:date;
+  vann:preferredNamespacePrefix "excav";
+  vann:preferredNamespaceUri "http://www.purl.com/ah/ms/excavation/";
+  rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
+  wdrs:describedby .
 
-
-                #======<>===============================<>=====#
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
   #===========  #------<>-------------------------------<>-----#	===========#
@@ -70,7 +82,7 @@ excav:bc
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
 	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
-	rdfs:isDefinedBy http://www.purl.com/ah/ms/ah/>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ah/>;
 	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
         rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
         rdfs:domain time:Instant;
@@ -109,7 +121,7 @@ excav:hasContext
   	rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
   	vann:usageNote "non-mandatory Property - 0..M"@en .
 
-excav:hasSVU;
+excav:hasSVU
   	a rdf:Property,	owl:ObjectProperty;
   	rdfs:comment "This property points to the StratigraphicVolumeUNit (CIDOC CRM A1)."@en;
   	rdfs:label "This property points to the to the  StratigraphicVolumeUNit"@en;
@@ -123,7 +135,7 @@ excav:hasTimeline
   	rdfs:isDefinedBy <http://www.purl.com/ah/ms/excavation/>;
   	rdfs:label "StratigraphicVolumeUnit - has a timeline"@en;
     rdfs:domain crmarchaeo:A2_Stratigraphic_Volume_Unit;
-  	rdfs:range time:TemporalEntity
+  	rdfs:range time:TemporalEntity;
   	vann:usageNote "non-mandatory Property - o..1"@en .
 
 excav:foundInSVU

@@ -8,7 +8,7 @@
 
 <https://purl.org/ah/ves/kos/ah-variant> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead variant"@en;
-    skos:hasTopConcept <https://purl.org/ah/kos/ah-variant/flatt>,
+    skos:hasTopConcept <https://purl.org/ah/kos/ah-variant/flat>,
         <https://purl.org/ah/kos/ah-variant/raised>,
         <https://purl.org/ah/kos/ah-variant/thick> ;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
@@ -29,7 +29,7 @@
     skos:prefLabel "Raised"@en ;
     skos:prefLabel "Elevado"@pt ;
     skos:notation "raised" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-variant .
+    skos:inScheme <https://purl.org/ah/kos/ah-variant> .
 
 
 <https://purl.org/ah/kos/ah-variant/thick>  a skos:Concept ;
