@@ -6,6 +6,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
+
 <https://purl.org/ah/kos/ah-base> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead base"@en;
     skos:hasTopConcept <https://purl.org/ah/kos/ah-base/straight>,
