@@ -6,7 +6,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/ves/kos/ah-chippingMode> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/ah/kos/ah-chippingMode> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping mode"@en;
     skos:hasTopConcept <https://purl.org/ah/kos/ah-chippingMode/plane>,
         <https://purl.org/ah/kos/ah-chippingMode/parallel>,

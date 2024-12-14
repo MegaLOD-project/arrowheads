@@ -8,7 +8,7 @@
 
 <https://purl.org/ah/kos/ah-chippingDelineation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping delineation"@en;
-    skos:hasTopConcept <https://purl.org/ah/ves/kos/ah-chippingDelineation/continuous>,
+    skos:hasTopConcept <https://purl.org/ah/kos/ah-chippingDelineation/continuous>,
         <https://purl.org/ah/kos/ah-chippingDelineation/composite>,
         <https://purl.org/ah/kos/ah-chippingDelineation/denticulated>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;

@@ -6,7 +6,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/ves/kos/ah-variant> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/ah/kos/ah-variant> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead variant"@en;
     skos:hasTopConcept <https://purl.org/ah/kos/ah-variant/flat>,
         <https://purl.org/ah/kos/ah-variant/raised>,
