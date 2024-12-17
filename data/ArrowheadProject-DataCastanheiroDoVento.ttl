@@ -38,10 +38,16 @@
     dbo:informationName "Castanheiro do Vento";
     excav:hasGPSCoordinates <https://purl.org/ah/ms/excavationMS/resource/Coordinates/1>.
 
+<https://purl.org/ah/ms/excavationMS/resource/Castanheiro_do_Vento> a dbo:Place;
+	dbo:district <https://purl.org/ah/ms/excavationMS/resource/Guarda>;
+	dbo:Parish <https://purl.org/ah/ms/excavationMS/resource/Horta_do_Douro>;
+	dbo:informationName "Castanheiro do Vento";
+	excav:hasGPSCoordinates <https://purl.org/ah/ms/excavationMS/resource/Coordinates/1>.
+
 <https://purl.org/ah/ms/excavationMS/resource/Guarda> a dbo:District;
 	dbo:informationName "Guarda".
 
-<https://purl.org/ah/ms/excavationMS/resource/Horta> a dbo:Parish;
+<https://purl.org/ah/ms/excavationMS/resource/Horta_do_Douro> a dbo:Parish;
 	dbo:informationName "Horta do Douro".
 
 <https://purl.org/ah/ms/excavationMS/resource/Coordinates/1> a geo:SpatialThing;
