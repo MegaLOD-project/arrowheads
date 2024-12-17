@@ -32,11 +32,6 @@
 			excav:hasContext <https://purl.org/ah/ms/excavationMS/resource/Context_106_47>.
 				
 
-<https://purl.org/ah/ms/excavationMS/resource/Castanheiro_do_Vento>	a	dbo:Place;
-    dbo:district <https://purl.org/ah/ms/excavationMS/resource/Guarda>;
-    dbo:parish <https://purl.org/ah/ms/excavationMS/resource/Horta>;
-    dbo:informationName "Castanheiro do Vento";
-    excav:hasGPSCoordinates <https://purl.org/ah/ms/excavationMS/resource/Coordinates/1>.
 
 <https://purl.org/ah/ms/excavationMS/resource/Castanheiro_do_Vento> a dbo:Place;
 	dbo:district <https://purl.org/ah/ms/excavationMS/resource/Guarda>;
