@@ -141,7 +141,7 @@
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_1> a crmsci:S19_Encounter_Event;
 	dct:date "15-7-19";
 	dbo:depth "726.66";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_1>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_1>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_80>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_106_45>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
@@ -149,7 +149,7 @@
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_2> a crmsci:S19_Encounter_Event;
 	dct:date "15-7-19";
 	dbo:depth "726.64";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_2>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_2>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_80>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_106_45>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
@@ -157,7 +157,7 @@
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_3> a crmsci:S19_Encounter_Event;
 	dct:date "29-7-08";
 	dbo:depth "727.85";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_3>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_3>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_3>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_95_26>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
@@ -165,7 +165,7 @@
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_4> a crmsci:S19_Encounter_Event;
 	dct:date "2005";
 	dbo:depth "726.74";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_4>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_4>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_2>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_106_47>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
@@ -173,14 +173,14 @@
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_5> a crmsci:S19_Encounter_Event;
 	dct:date "12-7-19";
 	dbo:depth "726.8";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_5>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_5>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_77>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_100_44>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
 
 <https://purl.org/ah/ms/excavationMS/resource/EncounterEvent_6> a crmsci:S19_Encounter_Event;
 	dct:date "19-7-17";
-	crmsci:O19_encountered_object <https://purl.org/ah/ms/ah/resource/ArrowHead_6>;
+	crmsci:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/ArrowHead_6>;
 	excav:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_23>;
 	excav:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_104_45>;
 	excav:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_1>.
