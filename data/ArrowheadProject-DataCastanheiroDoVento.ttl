@@ -289,10 +289,12 @@
 	crm:E54_Dimension "6.1".
 
 <https://purl.org/ah/ms/ahMS/resource/Morphology_1> a ah:Morphology;
+	ah:point "false";
 	ah:body "false";
 	ah:base <https://purl.org/ah/kos/ah-base/convex>.
 
 <https://purl.org/ah/ms/ahMS/resource/Morphology_2> a ah:Morphology;
+	ah:point "false";
 	ah:body "true";
 	ah:base <https://purl.org/ah/kos/ah-base/concave>.
 
@@ -304,7 +306,8 @@
 
 <https://purl.org/ah/ms/ahMS/resource/Morphology_4> a ah:Morphology;
 	ah:point "true";
-	ah:body "false".
+	ah:body "false";
+	ah:base <https://purl.org/ah/kos/ah-base/concave>.
 
 <https://purl.org/ah/ms/ahMS/resource/Morphology_5> a ah:Morphology;
 	ah:point "false";
