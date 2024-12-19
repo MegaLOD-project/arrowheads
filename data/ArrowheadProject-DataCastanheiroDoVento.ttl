@@ -261,7 +261,9 @@
 <https://purl.org/ah/ms/ahMS/resource/Typometry_1> a ah:Typometry;
 	crm:E54_Dimension "25.6";
 	crm:E54_Dimension "14.6";
-	crm:E54_Dimension "5.3".
+	crm:E54_Dimension "5.3";
+	crm:E54_Dimension "12.6";
+	crm:E54_Dimension "5.2".
 
 <https://purl.org/ah/ms/ahMS/resource/Typometry_2> a ah:Typometry;
 	crm:E54_Dimension "21.5";
