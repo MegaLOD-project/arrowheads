@@ -1,19 +1,19 @@
-@prefix ah: <http://www.purl.com/ah/ms/ahMS> .
-@prefix ah-vocab:<http://www.purl.com/ah/kos>.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ah-vocab:<http://www.purl.com/ah/kos#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix voaf: <http://labs.mondeca.com/vocab/voaf#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dbo:<http://dbpedia.org/ontology/> .
 @prefix time:<http://www.w3.org/2006/time#> .
-@prefix edm:<http://www.europeana.eu/schemas/edm> .
+@prefix edm:<http://www.europeana.eu/schemas/edm#> .
 @prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix crmsci:<https://cidoc-crm.org/extensions/crmsci/> .
+@prefix crmsci:<http://cidoc-crm.org/extensions/crmsci/> .
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
 @prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
@@ -71,6 +71,8 @@ ah:Morphology
 	rdfs:isDefinedBy <http://www.purl.com/ah/kos>;
 	rdfs:label "Morphology"@en.
 
+
+
 ah:Typometry
   a rdfs:Class;
   rdfs:comment "Topometry of the arrowhead."@en;
@@ -97,7 +99,7 @@ ah:Chipping
 ah:foundInCoordinates
 	a rdf:Property,	owl:ObjectProperty;
 	rdfs:comment "This property points to the GPS coordinates of the location of the arrowhead found."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - gpslocation"@en;
   rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
 	rdfs:range geo:SpatialThing;
@@ -106,7 +108,7 @@ ah:foundInCoordinates
 ah:hasMorphology
 	a rdf:Property,	owl:ObjectProperty;
 	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead.."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - morphology"@en;
   rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
 	rdfs:range ah:Morphology;
@@ -116,7 +118,7 @@ ah:hasTypometry
 	a rdf:Property,	owl:ObjectProperty;
 	dct:identifier "ah:typometry"@en;
 	rdfs:comment "This property points to an instance of the definition of the typometry of the Arrowhead."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - typometry"@en;
   rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
 	rdfs:range ah:Typometry;
@@ -125,7 +127,7 @@ ah:hasTypometry
 ah:hasChipping
   a rdf:Property,	owl:ObjectProperty;
   rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead.."@en;
-  rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+  rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
   rdfs:label "ArrowHead - has chipping"@en;
   rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
   rdfs:range ah:Chipping;
@@ -139,7 +141,7 @@ ah:hasChipping
 ah:shape
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "This property records the shape of the arrowhead. A good practice is to use the controlled vocabulary for AH-Shape."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - shape"@en;
         rdfs:domain crm:E24_Physical_Man-Made_Thing;
 	rdfs:range ah-vocab:ah-shape;
@@ -149,7 +151,7 @@ ah:variant
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Thickness Index. This is calculated by dividing the maximum width by the maximum thickness. The arrowhead is characterised as 'Blunt' when the index is equal to or greater than 8; 'Raised' when less than 8 and greater than  A good practice is to use the Controlled Vocabulary AH-Variant."@en;
         rdfs:comment "Indice de Espessura. Calcula-se o valor da divisão largura máxima e espessura máxima. A ponta de seta é  caracterizada como 'Abatida' quando o índice é igual ou superior a 8; 'Alteada' quando inferior a 8 e superior a 4, e 'Espessa' quando inferior a 4. Usar o vocabulário controlado Ah-Variant"@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
   	rdfs:label "ArrowHead - arrowHeadVariant"@en;
         rdfs:domain crm:E24_Physical_Man-Made_Thing;
   	rdfs:range ah-vocab:ah-variant;
@@ -170,7 +172,7 @@ ah:body
 	a rdf:Property,	owl:DataProperty;
         rdfs:comment "THis property is used to define the simmetry of the body of the arrowhead presents. Symmetrical=True; Non-symmetrical=False"@en;
 	  rdfs:comment "Esta propriedade define a simetria da base da ponta de seta. Symmetrical=True; Non-symmetrical=False";
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "Arrowhead-Morphology - body. Symmetrical=True; Non-symmetrical=False. "@en;
 	rdfs:label "Arrowhead-Morphology - body. Symmetrical=True; Non-symmetrical=False. "@pt;
         rdfs:domain ah:Morphology;
@@ -202,7 +204,7 @@ ah:amplitude
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Retouching extension, Marginal=True;Deep=False."@en;
         rdfs:comment "Extensão do retoque, Marginal=True;Profundo=False."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "Arrowhead-Chipping-amplitude"@en;
         rdfs:domain ah:Chipping;
 	rdfs:range xsd:boolean;
@@ -222,7 +224,7 @@ ah:orientation
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Angle between the original axis of the part and the line formed by the retouching, Lateral=True;Transverse=False."@en;
     	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque, Lateral=True;Transversal=False."@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS>;
+  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
   	rdfs:label "Arrowhead-Chipping-Orientation"@en;
  	rdfs:domain ah:Chipping;
   	rdfs:range xsd:boolean;

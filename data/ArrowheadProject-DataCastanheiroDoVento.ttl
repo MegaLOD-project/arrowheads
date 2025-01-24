@@ -1,17 +1,17 @@
-@prefix ah: <http://www.purl.com/ah/ms/ahMS> .
-@prefix ah-vocab:<http://www.purl.com/ah/kos>.
-@prefix excav:<https://purl.org/ah/ms/excavationMS>.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ah-vocab:<http://www.purl.com/ah/kos#>.
+@prefix excav:<https://purl.org/ah/ms/excavationMS#>.
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix voaf: <http://labs.mondeca.com/vocab/voaf#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix edm: <http://www.europeana.eu/schemas/edm> .
+@prefix edm:<http://www.europeana.eu/schemas/edm#> . 
 @prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/> .

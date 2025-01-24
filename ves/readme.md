@@ -6,7 +6,7 @@ URI: http://purl.org/ah/kos/
 | VES                    | Valores (PT)                                                         | Values (EN)                                                               |
 |------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
 | ah-vocab:ah-shape      | Triangular,Losângica,Peduncolada             | Triangle, Losangular, Pedunculated,                 |
-| ah-vocab:ah-variant    | Abatida,Alteada,Espessa                                              | Flatt, Raised,Thick                                                       |
+| ah-vocab:ah-variant    | Abatida,Alteada,Espessa                                              | Flat, Raised,Thick                                                       |
 | ah-vocab:ah-base                | Reta, Convexa, Côncava, Peduncolada, Triangular | Straight, Convex, Concave, Peduncolated, Triangular |
 | ah-vocab:ah-chippingMode        | Plano,Paralelo,Sub-Paralelo                                          | Plane, Parallel, Sub-Parallel                                             |
 | ah-vocab:ah-chippingDirection   | Direta,Inversa,Bifacial                                              | Direct, Reverse, Bifacial                                                 |

@@ -19,10 +19,10 @@
     dc:title "Kos about arrowhead variant"@en.
 
 
-<https://purl.org/ah/kos/ah-variant/flatt> a skos:Concept ;
-    skos:prefLabel "Flatt"@en ;
+<https://purl.org/ah/kos/ah-variant/flat> a skos:Concept ;
+    skos:prefLabel "Flat"@en ;
     skos:prefLabel "Liso"@pt ;
-    skos:notation "flatt" ;
+    skos:notation "flat" ;
     skos:inScheme <https://purl.org/ah/kos/ah-variant> .
 
 <https://purl.org/ah/kos/ah-variant/raised> a skos:Concept ;
