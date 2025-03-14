@@ -21,7 +21,7 @@
 
 
 
-<http://www.purl.com/ah> 	a voaf:metadataVoc, owl:Ontology;
+<http://www.purl.com/ah/ms/ahMS> a voaf:metadataVoc, owl:Ontology;
   voaf:specializes ah:;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
