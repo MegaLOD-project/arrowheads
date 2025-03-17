@@ -101,7 +101,7 @@ ah:foundInCoordinates
 	rdfs:comment "This property points to the GPS coordinates of the location of the arrowhead found."@en;
 	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - gpslocation"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
+  rdfs:domain crm:E24_Physical_Man-Made_Thing;
 	rdfs:range geo:SpatialThing;
 	vann:usageNote "Non-mandatory Property - 0..1"@en.
 
@@ -110,7 +110,7 @@ ah:hasMorphology
 	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead.."@en;
 	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - morphology"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
+  rdfs:domain crm:E24_Physical_Man-Made_Thing;
 	rdfs:range ah:Morphology;
 	vann:usageNote "Non-mandatory Property - 0..1"@en.
 
@@ -120,7 +120,7 @@ ah:hasTypometry
 	rdfs:comment "This property points to an instance of the definition of the typometry of the Arrowhead."@en;
 	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "ArrowHead - typometry"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
+  rdfs:domain crm:E24_Physical_Man-Made_Thing;
 	rdfs:range ah:Typometry;
 	vann:usageNote "Non-mandatory Property - 0..1"@en.
 
@@ -129,7 +129,7 @@ ah:hasChipping
   rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead.."@en;
   rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
   rdfs:label "ArrowHead - has chipping"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing_Physical_Man-Made_Thing;
+  rdfs:domain crm:E24_Physical_Man-Made_Thing;
   rdfs:range ah:Chipping;
   vann:usageNote "Non mandatory Property - 0..1"@en.
 
