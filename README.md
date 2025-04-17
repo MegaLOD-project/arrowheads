@@ -1,4 +1,4 @@
-# Arrowhead Project
+# Arrowhead Repository
 
 This repository serves as a set of practices for defining models and datasets of Arrowheads from the chronology between Chalcolithic and Early/Middle Bronze Age (2800/2900 to 1500 BC).
 
