@@ -21,5 +21,5 @@ In this repository, you can find the following:
 5. The MAP testing data file in Turtle and Excel (see folder "data").
 
 # Publications
-This work is published in the paper "Promoting interoperability on the datasets of the arrowheads findings of the Chalcolithic and the Early/Middle Bronze Age", published in the proceedings of the 28th International Conference on Theory and Practice of Digital Libraries held in LJUBLJANA, Slovenia, September 24 - 27, 2024.
+This work is published in the paper "Promoting interoperability on the datasets of the arrowheads findings of the Chalcolithic and the Early/Middle Bronze Age", published in the proceedings of the 28th International Conference on Theory and Practice of Digital Libraries held in LJUBLJANA, Slovenia, September 24 - 27, 2024. [See here] (https://link.springer.com/chapter/10.1007/978-3-031-72437-4_6)
 
