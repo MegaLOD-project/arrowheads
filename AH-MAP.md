@@ -1,4 +1,4 @@
-# The Arrowhead Metadata Application Profile V1.0 - Ah MAP
+# The MegaLOD Metadata Application Profile V1.0 - MegaLOD MAP
 
 # NameSpaces
 | Prefix     | URI                                                   |
@@ -16,7 +16,7 @@
 | ah         | https://purl.org/ah/ms/ah/                            |
 | excav      | https://purl.org/ah/ms/excavation/                    |
 
-# Metadata Application Profile
+# MegaLOD Metadata Application Profile
 
 | Label                                                               | Domain                                   | Range                                    | Vocabulary Term                          | Cardinality | VES                    |
 |---------------------------------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|-------------|------------------------|
