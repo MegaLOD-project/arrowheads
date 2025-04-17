@@ -1,4 +1,4 @@
-# The Arrowhead Metadata Application Profile - Ah MAP
+# The Arrowhead Metadata Application Profile V1.0 - Ah MAP
 
 # NameSpaces
 | Prefix     | URI                                                   |
