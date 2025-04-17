@@ -1,5 +1,5 @@
-# Arrowhead Project Metadata Schemes
-These two metadata schemes were created to be used with the Arrowhead Metadata Application Profile (see https://purl.org/ah/map/)
+# MegaLOD Project Metadata Schemes
+These two metadata schemes were created to be used with the MegaLOD Metadata Application Profile (see https://purl.org/ah/map/)
 
 # Excavation Metadata Scheme
 URI: https//purl.org/ah/ms/exacavation/ 
