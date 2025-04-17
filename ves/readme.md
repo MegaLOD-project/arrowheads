@@ -1,7 +1,7 @@
-# Arrowhead Project - Vocabulary Encondig Schemes
-The following table presents the Vocabulary Encoding Schemes to be used with the metadata application profile of the arrowhead project. 
+# MegaLOD Project - Vocabulary Encoding Schemes
+The following table presents the Vocabulary Encoding Schemes to be used with the MegaLOD metadata application profile. 
 
-URI: http://purl.org/ah/kos/
+URI: http://purl.org/megalod/ves/
 
 | VES                    | Valores (PT)                                                         | Values (EN)                                                               |
 |------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
