@@ -13,7 +13,7 @@
 | edm        | http://www.europeana.eu/schemas/edm                   |
 | geo        | http://www.w3.org/2003/01/geo/wgs84_pos#              |
 | time       | http://www.w3.org/2006/time#                          |
-| ah         | https://purl.org/megalos/ms/ah/                       |
+| ah         | https://purl.org/megalod/ms/ah/                       |
 | excav      | https://purl.org/megalod/ms/excavation/               |
 
 # MegaLOD Metadata Application Profile
@@ -62,12 +62,12 @@
 | Item found In a Excavation                                          | excav:EncounterEvent                     | excav:Excavation                         | excav:foundInAExcavation                 | 0-1         |                        ||
 | __Item__                                                            |                                          |                                          | excav:Item                               |             |                        | owl:equivalentClass crm:E24_Physical_Man-Made_Thing         |                      
 | InventoryID                                                         | excav:Item                               | xsd:xsd:Literal                          | dcterms:identifier                       | 1-1         |                        ||
-| Images or 3d Models of the arrowead                                 | excav:Item                               | xsd:anyURI                               | edm:Webresource                          | 0-M         |                        ||
+| Images or 3d Models of the Item                                     | excav:Item                               | xsd:anyURI                               | edm:Webresource                          | 0-M         |                        ||
+| Observation details of the Item                                     | excav:Item                               | xsd:Literal                              | dbo:Annotation                           | 0-M         |                        ||
+| The Condition State of the Item      (Complete=True; Broken=False)  | excav:Item                               | xsd:boolean                              | crm:E3_Condition_State                   | 0-1         |                        ||
+| Material (made with)                                                | excav:Item                               | xsd:anyURI                               | crm:E57_Material                         | 0-1         | Getty Vocab AAT        ||
 | __ArrowHead__                                                       |                                          |                                          | excav:ArrowHead                          |             |                        | owl:equivalentClass crm:E24_Physical_Man-Made_Thing; rdfs:Subclass ex:Item         |
 | Shape of the arrowhead                                              | excav:ArrowHead                          | xsd:anyURI                               | ah:shape                                 | 0-1         | AH-Shape               ||
-| Arrowhead made with Material                                        | excav:ArrowHead                          | xsd:anyURI                               | crm:E57_Material                         | 0-1         | Getty Vocab AAT        ||
-| Observation details of the arrowhead                                | excav:ArrowHead                          | xsd:Literal                              | dbo:Annotation                           | 0-M         |                        ||
-| The Condition State of the arrowhead (Complete=True; Broken=False)  | excav:ArrowHead                          | xsd:boolean                              | crm:E3_Condition_State                   | 0-1         |                        ||
 | Type of the arrowhead (Elongate=True;Short=False)                   | excav:ArrowHead                          | xsd:boolean                              | crm:E55_Type                             | 0-1         |                        ||
 | Variant of the arrowhead                                            | excav:ArrowHead                          | xsd:anyURI                               | ah:variant                               | 0-1         | AH-Variant             ||
 | Was found in the GPSCoordinates                                     | excav:ArrowHead                          | excav:GPSCoordinates                     | ah:foundInCoordinates                    | 0-1         |                        ||
@@ -85,13 +85,13 @@
 | BaseLenght  of the arrowhead (in mm)                                | ah:Typometry                             | xsd:decimal                              | crm:E54_Dimension                        | 0-1         |                        ||
 | The arrowhead has Chipping                                          | ah:Typometry                             | ah:Chipping                              | ah:hasChipping                           | 0-1         |                        ||
 | __Chipping__                                                        |                                          |                                          | ah:Chipping                              | 0-1         |                        ||
-| Chipping-mode                                                       | ah:Chipping                              | xsd:anyURI                               | ah:mode                                  | 0-1         | ah-chippingMode        ||
+| Chipping-mode                                                       | ah:Chipping                              | xsd:anyURI                               | ah:mode                                  | 0-1         | aH-chippingMode        ||
 | Chipping-amplitude (Marginal=True, Deep=False)                      | ah:Chipping                              | xsd:boolean                              | ah:amplitude                             | 0-1         |                        ||
-| Chipping-direction                                                  | ah:Chipping                              | xsd:anyURI                               | ah:direction                             | 0-1         | ah-chippingDirection   ||
+| Chipping-direction                                                  | ah:Chipping                              | xsd:anyURI                               | ah:direction                             | 0-1         | aH-chippingDirection   ||
 | Chipping-orientation (Lateral=True, Transverse=False)               | ah:Chipping                              | xsd:xsd:boolean                          | ah:orientation                           | 0-1         |                        ||
-| Chipping-delineation                                                | ah:Chipping                              | xsd:anyURI                               | ah:dileneation                           | 0-1         | ah-chippingDelineation ||
-| Chipping-location-Lateral                                           | ah:Chipping                              | xsd:anyURI                               | ah:chippinglocation-Lateral              | 0-3         | ah-chippingLocation    ||
-| Chipping-Location-Transversal                                       | ah:Chipping                              | xsd:anyURI                               | ah:chippingLocation-Transveral           | 0-3         | ah-chippingLocation    ||
-| Chipping-Shape                                                      | ah:Chipping                              | xsd:anyURI                               | ah:chippingShape                         | 0-1         | ah-chippingShape       ||
+| Chipping-delineation                                                | ah:Chipping                              | xsd:anyURI                               | ah:dileneation                           | 0-1         | aH-chippingDelineation ||
+| Chipping-location-Lateral                                           | ah:Chipping                              | xsd:anyURI                               | ah:chippinglocation-Lateral              | 0-3         | aH-chippingLocation    ||
+| Chipping-Location-Transversal                                       | ah:Chipping                              | xsd:anyURI                               | ah:chippingLocation-Transveral           | 0-3         | aH-chippingLocation    ||
+| Chipping-Shape                                                      | ah:Chipping                              | xsd:anyURI                               | ah:chippingShape                         | 0-1         | aH-chippingShape       ||
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
