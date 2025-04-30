@@ -1,6 +1,6 @@
-@prefix excav: <https://purl.org/ah/ms/excavationMS#> .
-@prefix ah: <http://www.purl.com/ah/ms/ahMS#> .
-@prefix ah-vocab:<http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/megalod/ms/excavationMS#> .
+@prefix ah: <http://www.purl.com/megalod/ms/ahMS#> .
+@prefix ah-vocab:<http://www.purl.com/megalod/kos/ah#>.
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -54,9 +54,9 @@
   dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
   dct:modified "2024-"^^xsd:date;
   vann:preferredNamespacePrefix "excav";
-  vann:preferredNamespaceUri "https://purl.org/ah/ms/excavationMS";
+  vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavationMS";
   rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
-  wdrs:describedby <https://purl.org/ah/map> .
+  wdrs:describedby <https://purl.org/megalod/map> .
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
@@ -65,10 +65,10 @@
 
 excav:Archaeologist
 	a rdfs:Class;
-	rdfs:comment "This Class represents the Archaeologist that is in charge of the excavation."@en;
+	rdfs:comment "This Class represents the Archaeologist in charge of the excavation."@en;
 	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
 	rdfs:label "Location - has GPS Coordinates"@en;
-  owl:EquivalentClass crm:E21_Person;
+  owl:equivalentClass crm:E21_Person;
   rdfs:SubClassOf foaf:Person;
 	vann:usageNote "Non-mandatory Property - 0..1"@en .
 
