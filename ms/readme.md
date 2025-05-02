@@ -11,14 +11,16 @@ URI: https//purl.org/megalod/ms/excav/
 | Excavation                              | Excavation              |                                        
 | Archaeologist                           | Archaeologist           |                                
 | Location                                | Location                |                              
-| GPSCoordinates                          | GPSCoordinates          |                      
-| EncounterEvent                          | EncounterEvent          |                                        
-| StratigraphicVolumeUnit                 | StratigraphicVolumeUnit |                                       
+| GPS Coordinates                         | GPSCoordinates          |                      
+| Encounter Event                         | EncounterEvent          |                                        
+| Stratigraphic Volume Unit               | StratigraphicVolumeUnit |                                       
 | Context                                 | Context                 |                                       
-| TimeLine                                | TimeLine                 |                                        
+| TimeLine                                | TimeLine                |                                        
 
 
 # Terms
+| Label                                   | Vocabulary Term         | Domain                             |Range |
+|-----------------------------------------|-------------------------|------------------------------------|------|
 | Before (True) or After (False) christ   | bc                | time:Instant                             | xsd:boolean                              |
 | has GPS Coordinates                     | hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
 | has a person in charge                  | hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
