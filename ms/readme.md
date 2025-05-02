@@ -1,25 +1,37 @@
 # MegaLOD Project Metadata Schemes
-These two metadata schemes were created to be used with the MegaLOD Metadata Application Profile (see https://purl.org/ah/map/)
+These two metadata schemes were created to be used with the MegaLOD Metadata Application Profile (see https://purl.org/megalod/map/)
 
 # Excavation Metadata Scheme
-URI: https//purl.org/ah/ms/exacavation/ 
+URI: https//purl.org/megalod/ms/excav/
 
-| Label                                   | Vocabulary Term         | Domain                                   | Range                                    |
-|-----------------------------------------|-------------------------|------------------------------------------|------------------------------------------|
-| Archaeologist                           | excav:Archaeologist     |                                          |                                          |
-| Before (True) or After (False) christ   | excav:bc                | time:Instant                             | xsd:boolean                              |
-| has GPS Coordinates                     | excav:hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
-| has a person in charge                  | excav:hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
-| has context                             | excav:hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
-| has Stratigraphic Unit                  | excav:hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| hasTimeLine                             | excav:hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
-| Item found In a StratigraphicVolumeUnit | excav:foundInSVU           | crmsci:S19_Encounter_Event               | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| Item found In a Context                 | excav:foundInAContext      | crmsci:S19_Encounter_Event               | crmarchaeo:A1_Excavation_Processing_Unit |
-| Item found In a Excavation              | excav:foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
+# Classes
+
+| Label                                   | Vocabulary Term         | 
+|-----------------------------------------|-------------------------|
+| Excavation                              | Excavation              |                                        
+| Archaeologist                           | Archaeologist           |                                
+| Location                                | Location                |                              
+| GPSCoordinates                          | GPSCoordinates          |                      
+| EncounterEvent                          | EncounterEvent          |                                        
+| StratigraphicVolumeUnit                 | StratigraphicVolumeUnit |                                       
+| Context                                 | Context                 |                                       
+| TimeLine                                | TimeLine                 |                                        
+
+
+# Terms
+| Before (True) or After (False) christ   | bc                | time:Instant                             | xsd:boolean                              |
+| has GPS Coordinates                     | hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
+| has a person in charge                  | hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
+| has context                             | hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
+| has Stratigraphic Unit                  | hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
+| hasTimeLine                             | hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
+| Item found In a StratigraphicVolumeUnit | foundInSVU           | crmsci:S19_Encounter_Event               | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
+| Item found In a Context                 | foundInAContext      | crmsci:S19_Encounter_Event               | crmarchaeo:A1_Excavation_Processing_Unit |
+| Item found In a Excavation              | foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
 
 
 # Arroweahd Metadata Scheme
-URI: https//purl.org/ah/ms/ah/
+URI: https//purl.org/megalod/ms/ah/
 
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
