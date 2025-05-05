@@ -15,7 +15,9 @@ URI: https//purl.org/megalod/ms/excav/
 | Encounter Event                         | EncounterEvent          |                                        
 | Stratigraphic Volume Unit               | StratigraphicVolumeUnit |                                       
 | Context                                 | Context                 |                                       
-| TimeLine                                | TimeLine                |                                        
+| TimeLine                                | TimeLine                |
+| Item                                    | Item                    |    
+
 
 
 ## Terms
@@ -36,13 +38,20 @@ URI: https//purl.org/megalod/ms/excav/
 URI: https//purl.org/megalod/ms/ah/
 
 ## Classes
+| Label                                   | Vocabulary Term         | 
+|-----------------------------------------|-------------------------|
+| Arrowhead                                | Arrowhead              |
+| Morphology                                           | Morphology                  |       
+| Typometry                                            | Typometry                   |      
+| Chipping                                             | Chipping                    |     
+
+
+
 
 ## Terms
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-| Morphology                                           | ah:Morphology                  |                                  |                  |                        |
-| Typometry                                            | ah:Typometry                   |                                  |                  |                        |
-| Chipping                                             | ah:Chipping                    |                                  |                  |                        |
+
 | Shape                                                | ah:shape                       | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | ah-shape               |
 | Variant                                              | ah:variant                     | crm: E24_Physical_Man-Made_Thing | xsd:anyURI       | ah-variant             |
 | Point (Sharp=True;Fractured=False)                                               | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
