@@ -35,7 +35,7 @@ URI: https//purl.org/megalod/ms/excav/
 | Before (True) or After (False) christ   | bc                      | excav:bc                           | xsd:boolean                              |
 
 
-# Arroweahd Metadata Scheme
+# Arrowhead Metadata Scheme
 URI: https//purl.org/megalod/ms/ah/
 
 ## Classes
@@ -45,8 +45,6 @@ URI: https//purl.org/megalod/ms/ah/
 | Morphology                              | Morphology              |     |  
 | Typometry                               | Typometry                   |  |    
 | Chipping                                | Chipping                    |   |  
-
-
 
 
 ## Terms
@@ -70,13 +68,30 @@ URI: https//purl.org/megalod/ms/ah/
 | The arrowhead has a typometry                        | ah:hasTypometry                | excav:Arrowhead                  | ah:Typometry     |                        |
 | The arrowhead has a Chipping                         | ah:hasChipping                 | excav:Arrowhead                  | ah:Chipping      | |
 
-# Axes Metadata Scheme
+
+
+# Axe Metadata Scheme
 URI: https//purl.org/megalod/ms/ax/
 
 ## Classes
 | Label                                                | Vocabulary Term                |  Note |
 |------------------------------------------------------|--------------------------------|----------------------------------|
-|Axe                                                   | ax:axe                          |                                  |             
+|Axe                                                   | ax:axe                          |   rdfs:subClassOf excav:Item                               |             
+
+
+## Terms
+| Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
+|------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
+|  |      |                                  |                  |                        |
+
+
+# Loom Weight Metadata Scheme
+URI: https//purl.org/megalod/ms/lw/
+
+## Classes
+| Label                                                | Vocabulary Term                |  Note |
+|------------------------------------------------------|--------------------------------|----------------------------------|
+| Loom Weight                                          | ax:loomWeight                  | rdfs:subClassOf excav:Item               |             
 
 
 ## Terms
