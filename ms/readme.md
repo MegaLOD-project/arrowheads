@@ -6,9 +6,9 @@ URI: https//purl.org/megalod/ms/excav/
 
 ## Classes
 
-| Label                                   | Vocabulary Term         | 
-|-----------------------------------------|-------------------------|
-| Excavation                              | Excavation              |                                        
+| Label                                   | Vocabulary Term         | Note                                                   |
+|-----------------------------------------|-------------------------|--------------------------------------------------------|
+| Excavation                              | Excavation              | rdfs:subClassOf crmarchaeo:A9_Archaeological_Excavation|                                 
 | Archaeologist                           | Archaeologist           |                                
 | Location                                | Location                |                              
 | GPS Coordinates                         | GPSCoordinates          |                      
