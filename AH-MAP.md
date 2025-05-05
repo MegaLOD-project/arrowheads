@@ -15,6 +15,9 @@
 | time       | http://www.w3.org/2006/time#                          |
 | ah         | https://purl.org/megalod/ms/ah/                       |
 | excav      | https://purl.org/megalod/ms/excavation/               |
+| axe        | https://purl.org/megalod/ms/axe/                      |
+| lw         | https://purl.org/megalod/ms/loomWeight/              |
+
 
 # MegaLOD Metadata Application Profile
 
@@ -93,5 +96,7 @@
 | Chipping-location-Lateral                                           | ah:Chipping                              | xsd:anyURI                               | ah:chippinglocation-Lateral              | 0-3         | aH-chippingLocation    ||
 | Chipping-Location-Transversal                                       | ah:Chipping                              | xsd:anyURI                               | ah:chippingLocation-Transveral           | 0-3         | aH-chippingLocation    ||
 | Chipping-Shape                                                      | ah:Chipping                              | xsd:anyURI                               | ah:chippingShape                         | 0-1         | aH-chippingShape       ||
+| __Axe__                                                       |                                          |                                          | axe:Axe                          |             |                        | rdfs:subClassOf crm:E24_Physical_Man-Made_Thing; rdfs:Subclass ex:Item         |
+| __Loom Weight__                                                       |                                          |                                          | lh:LoomWheight                          |             |                        | rdfs:subClassOf crm:E24_Physical_Man-Made_Thing; rdfs:Subclass ex:Item         |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
