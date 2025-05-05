@@ -71,7 +71,7 @@ URI: https//purl.org/megalod/ms/ah/
 
 
 # Axe Metadata Scheme
-URI: https//purl.org/megalod/ms/ax/
+URI: https//purl.org/megalod/ms/axe/
 
 ## Classes
 | Label                                                | Vocabulary Term                |  Note |
@@ -82,19 +82,19 @@ URI: https//purl.org/megalod/ms/ax/
 ## Terms
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-|  |      |                                  |                  |                        |
+| To be Defined |      |                                  |                  |                        |
 
 
 # Loom Weight Metadata Scheme
-URI: https//purl.org/megalod/ms/lw/
+URI: https//purl.org/megalod/ms/loomWeight/
 
 ## Classes
 | Label                                                | Vocabulary Term                |  Note |
 |------------------------------------------------------|--------------------------------|----------------------------------|
-| Loom Weight                                          | ax:loomWeight                  | rdfs:subClassOf excav:Item               |             
+| Loom Weight                                          | ax:LoomWeight                  | rdfs:subClassOf excav:Item               |             
 
 
 ## Terms
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-|  |      |                                  |                  |                        |
+| To be Defined |      |                                  |                  |                        |
