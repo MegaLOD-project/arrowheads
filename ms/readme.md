@@ -24,27 +24,27 @@ URI: https//purl.org/megalod/ms/excav/
 ## Terms
 | Label                                   | Vocabulary Term         | Domain                             |Range |
 |-----------------------------------------|-------------------------|------------------------------------|------|
-| Before (True) or After (False) christ   | bc                      | time:Instant                             | xsd:boolean                              |
-| has GPS Coordinates                     | hasGPSCoordinates       | dbo:Place                                | geo:SpatialThing                         |
-| has a person in charge                  | hasResponsible          | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
-| has context                             | hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
-| has Stratigraphic Unit                  | hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| hasTimeLine                             | hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
-| Item found In a StratigraphicVolumeUnit | foundInSVU           | crmsci:S19_Encounter_Event               | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
-| Item found In a Context                 | foundInAContext      | crmsci:S19_Encounter_Event               | crmarchaeo:A1_Excavation_Processing_Unit |
-| Item found In a Excavation              | foundInAExcavation   | crmsci:S19_Encounter_Event               | crmarchaeo:A9_Archaeological_Excavation  |
+| has GPS Coordinates                     | hasGPSCoordinates       | excav:Location                     | excav:GPSCoordinates                       |
+| has a person in charge                  | hasPersonInCharge       | excav:Excavation                   | excav:Archaeologist                      |
+| has context                             | hasContext              | excav:Excavation                   | excav:Context |
+| has Stratigraphic Unit                  | hasSVU                  | excav:Context                      | excav:StratigraphicVolumeUnit  |
+| hasTimeLine                             | hasTimeLine             | excav:StratigraphicVolumeUnit      | excav:TimeLine                      |
+| Item found In a StratigraphicVolumeUnit | foundInSVU              | excav:EncounterEvent               | excav:StratigraphicVolumeUnit  |
+| Item found In a Context                 | foundInAContext         | excav:EncounterEvent               | excav:Context|
+| Item found In a Excavation              | foundInAExcavation      | excav:EncounterEvent               | excav:Excavation  |
+| Before (True) or After (False) christ   | bc                      | excav:bc                           | xsd:boolean                              |
 
 
 # Arroweahd Metadata Scheme
 URI: https//purl.org/megalod/ms/ah/
 
 ## Classes
-| Label                                   | Vocabulary Term         | 
-|-----------------------------------------|-------------------------|
-| Arrowhead                               | Arrowhead              |
-| Morphology                              | Morphology                  |       
-| Typometry                               | Typometry                   |      
-| Chipping                                | Chipping                    |     
+| Label                                   | Vocabulary Term         | Note |
+|-----------------------------------------|-------------------------|------|
+| Arrowhead                               | Arrowhead               | rdfs:subClassOf excav:Item |
+| Morphology                              | Morphology              |     |  
+| Typometry                               | Typometry                   |  |    
+| Chipping                                | Chipping                    |   |  
 
 
 
