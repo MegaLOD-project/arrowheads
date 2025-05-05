@@ -1,5 +1,5 @@
 # MegaLOD Project Metadata Schemes
-These two metadata schemes were created to be used with the MegaLOD Metadata Application Profile (see https://purl.org/megalod/map/)
+These two metadata schemes were created to be used in the context of the MegaLOD Metadata Application Profile (see https://purl.org/megalod/map/)
 
 # Excavation Metadata Scheme
 URI: https//purl.org/megalod/ms/excav/
@@ -9,23 +9,24 @@ URI: https//purl.org/megalod/ms/excav/
 | Label                                   | Vocabulary Term         | Note                                                   |
 |-----------------------------------------|-------------------------|--------------------------------------------------------|
 | Excavation                              | Excavation              | rdfs:subClassOf crmarchaeo:A9_Archaeological_Excavation|                                 
-| Archaeologist                           | Archaeologist           |                                
-| Location                                | Location                |                              
-| GPS Coordinates                         | GPSCoordinates          |                      
-| Encounter Event                         | EncounterEvent          |                                        
-| Stratigraphic Volume Unit               | StratigraphicVolumeUnit |                                       
-| Context                                 | Context                 |                                       
-| TimeLine                                | TimeLine                |
-| Item                                    | Item                    |    
+| Archaeologist                           | Archaeologist           | rdfs:subClassOf foaf:Person; owl:equivalentClass crm:E21_Person; |                               
+| Location                                | Location                | rdfs:subClassOf dbo:Place|                           
+| GPS Coordinates                         | GPSCoordinates          | rdfs:subClassOfgeo:SpatialThing |                     
+| Encounter Event                         | EncounterEvent          | rdfs:subClassOf crmsci:S19_Encounter_Event    |                                   
+| Stratigraphic Volume Unit               | StratigraphicVolumeUnit | rdfs:subClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit|                                       
+| Context                                 | Context                 | rdfs:subClassOf crmarchaeo:A1_Excavation_Processing_Unit|
+| TimeLine                                | TimeLine                | rdfs:subClassOf time:TemporalEntity|
+| Instant                                 | Instant                 | rdfs:subClassOf time:Instant|
+| Item                                    | Item                    | rdfs:subClassOf crm:E24_Physical_Man-Made_Thing|   
 
 
 
 ## Terms
 | Label                                   | Vocabulary Term         | Domain                             |Range |
 |-----------------------------------------|-------------------------|------------------------------------|------|
-| Before (True) or After (False) christ   | bc                | time:Instant                             | xsd:boolean                              |
-| has GPS Coordinates                     | hasGPSCoordinates | dbo:Place                                | geo:SpatialThing                         |
-| has a person in charge                  | hasResponsible       | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
+| Before (True) or After (False) christ   | bc                      | time:Instant                             | xsd:boolean                              |
+| has GPS Coordinates                     | hasGPSCoordinates       | dbo:Place                                | geo:SpatialThing                         |
+| has a person in charge                  | hasResponsible          | crmarchaeo:A9_Archaeological_Excavation  | excav:Archaeologist                      |
 | has context                             | hasContext           | crmarchaeo:A9_Archaeological_Excavation  | crmarchaeo:A1_Excavation_Processing_Unit |
 | has Stratigraphic Unit                  | hasSVU               | crmarchaeo:A1_Excavation_Processing_Unit | crmarchaeo:A2_Stratigraphic_Volume_Unit  |
 | hasTimeLine                             | hasTimeLine          | crmarchaeo:A2_Stratigraphic_Volume_Unit  | time:TemporalEntity                      |
@@ -40,10 +41,10 @@ URI: https//purl.org/megalod/ms/ah/
 ## Classes
 | Label                                   | Vocabulary Term         | 
 |-----------------------------------------|-------------------------|
-| Arrowhead                                | Arrowhead              |
-| Morphology                                           | Morphology                  |       
-| Typometry                                            | Typometry                   |      
-| Chipping                                             | Chipping                    |     
+| Arrowhead                               | Arrowhead              |
+| Morphology                              | Morphology                  |       
+| Typometry                               | Typometry                   |      
+| Chipping                                | Chipping                    |     
 
 
 
